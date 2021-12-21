@@ -1,15 +1,14 @@
 <template>
-  <header class="my-4 text-center">
+  <header class="my-5 pt-5 text-center">
     <h1>{{ title }}</h1>
   </header>
 </template>
 <script>
 export default {
-  name: 'SectionTitle',
+  name: "section-title",
   props: {
-    title: String
-  }
+    title: String,
+  },
 };
 </script>
-<style scoped>
-</style>
+<style scoped></style>

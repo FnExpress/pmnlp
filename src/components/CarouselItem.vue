@@ -1,9 +1,6 @@
 <template>
   <div class="carousel-item">
-    <img
-      :src="photo"
-      class="d-block" alt=""
-    />
+    <img :src="photo" class="img-fluid" alt="" />
     <div class="carousel-caption d-none d-md-block">
       <h5>{{ subtitle }}</h5>
       <p>{{ subtitle2 }}</p>
@@ -13,9 +10,8 @@
 
 <script>
 export default {
-  props: ['photo', 'title', 'subtitle', 'subtitle2']
+  props: ["photo", "title", "subtitle", "subtitle2"],
 };
 </script>
 
-<style>
-</style>
+<style></style>

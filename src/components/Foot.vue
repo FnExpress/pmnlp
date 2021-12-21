@@ -1,0 +1,69 @@
+<template>
+  <div class="container-fluid footer-color">
+    <footer class="pt-4 pt-md-5 border-top">
+      <div class="container">
+        <div class="row p-4 text-center">
+          <div class="col-12 col-md-4">
+            <h5>联系我们</h5>
+            <p>地址: 湖北省武汉市八一路武汉大学计算机学院A516</p>
+            <p>邮编: 430072</p>
+            <p>电话: 027-68775361</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <div id="map-container"></div>
+          </div>
+          <div class="col-12 col-md-4">
+            <h5>关注我们</h5>
+            <div
+              class="mx-auto"
+              style="background: cyan; height: 200px; width: 200px"
+            >
+              一个二维码
+            </div>
+          </div>
+
+          <div>
+            Copyright 2021 © 版权所有 武汉大学语言与信息研究中心 @武汉大学
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</template>
+<script>
+export default {
+  name: "foot",
+  mounted() {
+    // 获取到作为地图容器的DOM元素
+    const container = document.querySelector("#map-container");
+    console.log(container);
+
+    // 创建地图实例
+    const map = new AMap.Map(container, {
+      zoom: 18,
+      pitch: 45,
+      rotation: 10,
+      viewMode: "3D", //开启3D视图,默认为关闭
+      center: [114.357599, 30.538512],
+    });
+    //构建自定义信息窗体
+    new AMap.InfoWindow({
+      anchor: "bottom-center",
+      content:
+        "<h4>武汉大学自然语言处理实验室</h4><div>地址：武汉大学计算机学院B703</div>",
+    }).open(map, [114.357599, 30.538612]);
+  },
+};
+</script>
+
+<style>
+.footer-color {
+  background: #1d1e20;
+  color: white;
+}
+#map-container {
+  height: 400px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+</style>
