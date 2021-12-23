@@ -1,19 +1,22 @@
 <template>
-  <div class="container-fluid footer-color">
-    <footer class="pt-4 pt-md-5 border-top">
+  <footer class="pt-4">
+    <div class="container-fluid bg-light">
       <div class="container">
         <div class="row p-4 text-center">
-          <div class="col-12 col-md-4">
-            <h5>联系我们</h5>
-            <p>地址: 湖北省武汉市八一路武汉大学计算机学院A516</p>
-            <p>邮编: 430072</p>
-            <p>电话: 027-68775361</p>
+          <div class="col-md p-4">
+            <h3 class="mb-4">联系我们</h3>
+            <ul class="text-start p-5" style="list-style: none">
+              <li>电话: 027-68775361</li>
+              <li>邮编: 430072</li>
+              <li>地址: 湖北省武汉市八一路武汉大学计算机学院A516</li>
+            </ul>
           </div>
-          <div class="col-12 col-md-4">
+          <div class="col-md p-4">
+            <h3 class="mb-4">地址</h3>
             <div id="map-container"></div>
           </div>
-          <div class="col-12 col-md-4">
-            <h5>关注我们</h5>
+          <div class="col-md p-4">
+            <h3>关注我们</h3>
             <div
               class="mx-auto"
               style="background: cyan; height: 200px; width: 200px"
@@ -21,14 +24,13 @@
               一个二维码
             </div>
           </div>
-
-          <div>
-            Copyright 2021 © 版权所有 武汉大学语言与信息研究中心 @武汉大学
-          </div>
         </div>
       </div>
-    </footer>
-  </div>
+    </div>
+    <div class="bg-secondary bg-opacity-25 p-5 text-center">
+      Copyright 2021 © 版权所有 武汉大学语言与信息研究中心 @武汉大学
+    </div>
+  </footer>
 </template>
 <script>
 export default {
@@ -57,13 +59,7 @@ export default {
 </script>
 
 <style>
-.footer-color {
-  background: #1d1e20;
-  color: white;
-}
 #map-container {
-  height: 400px;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  height: 200px;
 }
 </style>

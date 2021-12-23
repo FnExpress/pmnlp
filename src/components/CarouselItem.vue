@@ -1,6 +1,6 @@
 <template>
   <div class="carousel-item">
-    <img :src="photo" class="img-fluid" alt="" />
+    <img :src="photo" class="img-fluid text-center" alt="" />
     <div class="carousel-caption d-none d-md-block">
       <h5>{{ subtitle }}</h5>
       <p>{{ subtitle2 }}</p>
@@ -14,4 +14,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+@media (max-width: 1920px) {
+  img {
+    width: 100%;
+  }
+}
+</style>

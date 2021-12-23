@@ -1,6 +1,8 @@
 <template>
   <BaseLayout>
-    <div class="container-fluid">导师风采</div>
+    <div class="page-header p-5 bg-light container-fluid text-center">
+      <h1>导师介绍</h1>
+    </div>
     <tutor-info />
   </BaseLayout>
 </template>
@@ -13,4 +15,7 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.page-header {
+}
+</style>

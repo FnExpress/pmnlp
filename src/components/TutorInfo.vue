@@ -1,12 +1,10 @@
 <template>
-  <div class="container">
+  <div class="container p-5">
     <div class="row">
       <div class="col-md-4">
-        <img
-          alt=""
-          class="img-fluid d-block mx-auto"
-          src="../../public/tutor.png"
-        />
+        <div class="w-50 float-md-end mx-auto">
+          <img alt="" class="img-fluid" src="../../public/tutor.png" />
+        </div>
       </div>
       <div class="col-md-8">
         <h3>彭敏</h3>
@@ -36,7 +34,7 @@
             博士学位
           </dd>
           <dt class="text-info">工作背景</dt>
-          <table class="table table-borderless">
+          <table class="table table-borderless table-sm">
             <tbody>
               <tr>
                 <td>2011-至今</td>
@@ -65,9 +63,79 @@
             </tbody>
           </table>
           <dt class="text-info">代表性论文</dt>
-          <dd>很多很多</dd>
+          <ul class="list-group py-3">
+            <li class="list-group-item">
+              <p>
+                M.Peng, D.Chen, Q.Xie
+                <strong
+                  >International Conference on Web Information Systems
+                  Engineering. Springer International Publishing (WISE) （CCF
+                  C类会议）,2018,pp.483-496</strong
+                >
+                Incorporating word embeddings into topic modeling of short texts
+                <a href="#">[PDF]</a>
+              </p>
+            </li>
+            <li class="list-group-item">
+              <p>
+                M.Peng, D.Chen, Q.Xie
+                <strong
+                  >International Conference on Web Information Systems
+                  Engineering. Springer International Publishing (WISE) （CCF
+                  C类会议）,2018,pp.483-496</strong
+                >
+                Incorporating word embeddings into topic modeling of short texts
+                <a href="#">[PDF]</a>
+              </p>
+            </li>
+            <li class="list-group-item">
+              <p>
+                M.Peng, D.Chen, Q.Xie
+                <strong
+                  >International Conference on Web Information Systems
+                  Engineering. Springer International Publishing (WISE) （CCF
+                  C类会议）,2018,pp.483-496</strong
+                >
+                Incorporating word embeddings into topic modeling of short texts
+                <a href="#">[PDF]</a>
+              </p>
+            </li>
+            <li class="list-group-item">
+              <p>
+                M.Peng, D.Chen, Q.Xie
+                <strong
+                  >International Conference on Web Information Systems
+                  Engineering. Springer International Publishing (WISE) （CCF
+                  C类会议）,2018,pp.483-496</strong
+                >
+                Incorporating word embeddings into topic modeling of short texts
+                <a href="#">[PDF]</a>
+              </p>
+            </li>
+          </ul>
           <dt class="text-info">专利</dt>
-          <dd>很多很多</dd>
+          <ul class="list-group py-3">
+            <li class="list-group-item">
+              1.“可信软件的开发方法与技术”，2014年湖北省科技进步一等奖
+            </li>
+            <li class="list-group-item">
+              2.
+              “Web信息获取、分析、测试过程中若干关键技术的研究与实现”，2008湖北省自然科学奖二等奖
+            </li>
+            <li class="list-group-item">
+              3.
+              “基于WRK的Windows操作系统原理实验教学探索”，2008英特尔杯全国计算机教育优秀论文评比，三等奖
+            </li>
+            <li class="list-group-item">
+              4. “Evaluation of Post-Fault Restoration Strategies in
+              Multi-Domain Networks” , Feng Xu, Tamal Das, Min Peng, Nasir
+              Ghani，IEEE ANTS 2010最佳论文
+            </li>
+            <li class="list-group-item">
+              5.
+              “第二届中国创新创业大赛优秀创业团队”，中国招商银行,2013.10（指导老师）
+            </li>
+          </ul>
           <dt class="text-info">联系方式</dt>
           <table class="table table-borderless">
             <tbody>
