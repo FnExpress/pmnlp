@@ -18,18 +18,36 @@
   <!--    <p>知识图谱 喜欢学习</p>-->
   <!--    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
 
-  <div class="card bg-light">
-    <div class="card-body text-center px-5 py-4">
-      <img :src="getPhoto" class="mb-3 rounded-circle img-container" alt="" />
-      <h3 class="card-title">{{ name }}</h3>
-      <p class="card-text">{{ description }}</p>
-      <div class="d-flex justify-content-center">
+  <!--  <div class="card bg-light">-->
+  <!--    <div class="card-body text-center px-5 py-4">-->
+  <!--      <img :src="getPhoto" class="mb-3 rounded-circle img-container" alt="" />-->
+  <!--      <h3 class="card-title">{{ name }}</h3>-->
+  <!--      <p class="card-text">{{ description }}</p>-->
+  <!--      <div class="d-flex justify-content-center">-->
+  <!--          <a v-if="email != null" :href="'mailto:' + email"-->
+  <!--            ><i class="fas fa-envelope text-black"></i></a>-->
+  <!--          <a v-if="link != null" :href="link" target="_blank"-->
+  <!--            ><i class="fas fa-home text-black"></i-->
+  <!--          ></a>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--  </div>-->
+
+  <div class="member" data-aos="zoom-in" data-aos-delay="400">
+    <div class="pic"><img :src="getPhoto" alt="" class="img-fluid" /></div>
+    <div class="member-info">
+      <h4>{{ name }}</h4>
+      <span>{{ description }}</span>
+      <p>{{ description }}</p>
+      <div class="social">
         <a v-if="email != null" :href="'mailto:' + email"
-          ><i class="bi bi-envelope"></i
+          ><i class="fas fa-envelope"></i
         ></a>
         <a v-if="link != null" :href="link" target="_blank"
-          ><i class="bi bi-house"></i
+          ><i class="fas fa-home"></i
         ></a>
+        <!--        <a href=""><i class="fab fa-instagram"></i></a>-->
+        <!--        <a href=""><i class="fab fa-linkedin"></i> </a>-->
       </div>
     </div>
   </div>
@@ -54,14 +72,102 @@ export default {
 };
 </script>
 <style scoped>
-i {
-  font-size: 24px;
-  padding: 1rem;
-}
+/*i {*/
+/*  font-size: 24px;*/
+/*  padding: 1rem;*/
+/*}*/
 
 .img-container {
   width: 192px;
   height: 192px;
   object-fit: cover;
+}
+
+.member {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.member .pic {
+  overflow: hidden;
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+}
+
+.member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.member:hover img {
+  transform: scale(1.1);
+}
+
+.member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #36343a;
+}
+
+.member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.member span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #b5b3ba;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #a8a5ae;
+  text-decoration: none;
+}
+
+.member .social a i {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.member .social a:hover {
+  background: #009970;
+}
+
+.member .social a + a {
+  margin-left: 8px;
 }
 </style>

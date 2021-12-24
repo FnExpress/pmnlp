@@ -1,9 +1,9 @@
 <template>
   <div class="carousel-item">
-    <img :src="photo" class="img-fluid text-center" alt="" />
+    <img :src="photo" alt="" class="w-100 text-center carousel-img" />
     <div class="carousel-caption d-none d-md-block">
-      <h5>{{ subtitle }}</h5>
-      <p>{{ subtitle2 }}</p>
+      <p class="display-1">{{ subtitle }}</p>
+      <p class="display-4">{{ subtitle2 }}</p>
     </div>
   </div>
 </template>
@@ -14,10 +14,16 @@ export default {
 };
 </script>
 
-<style>
-@media (max-width: 1920px) {
-  img {
-    width: 100%;
-  }
+<style scoped>
+.carousel-caption {
+  top: 30%;
+}
+
+.carousel-caption p {
+  padding: 1rem;
+}
+
+carousel-img {
+  filter: brightness(0.8);
 }
 </style>

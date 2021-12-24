@@ -1,5 +1,5 @@
 <template>
-  <footer class="pt-4">
+  <footer id="footer" class="pt-4">
     <div class="container-fluid bg-light">
       <div class="container">
         <div class="row p-4 text-center">
@@ -19,9 +19,13 @@
             <h3>关注我们</h3>
             <div
               class="mx-auto"
-              style="background: cyan; height: 200px; width: 200px"
+              style="background: cyan; height: 160px; width: 160px"
             >
-              一个二维码
+              <img
+                class="img-fluid"
+                src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224144027.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -52,7 +56,7 @@ export default {
     new AMap.InfoWindow({
       anchor: "bottom-center",
       content:
-        "<h4>武汉大学自然语言处理实验室</h4><div>地址：武汉大学计算机学院B703</div>",
+        "<h4>武汉大学自然语言处理实验室</h4><div>地址：武汉大学计算机学院A516</div>",
     }).open(map, [114.357599, 30.538612]);
   },
 };

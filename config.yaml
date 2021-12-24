@@ -12,10 +12,13 @@ backgrounds:
   - https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207205054.png?x-oss-process=style/bg
 research:
   - title: 自然语言理解
-    description: 主要研究方向为阅读理解、对话生成等
-    icon: fa-cogs
+    description: 赋予计算机系统以自然语言文本方式与外界交互的能力，追踪和研究最前沿的自然语言文本理解和生成技术，孵化下一代自然语言处理技术与商业应用场景。研究方向：语义分析，知识推理，智能问答，机器翻译等。
+    icon: fa-comment-dots
   - title: 知识图谱
     description: 显示知识发展进程与结构关系的一系列各种不同的图形，用可视化技术描述知识资源及其载体，挖掘、分析、构建、绘制和显示知识及它们之间的相互联系
+    icon: fa-cogs
+  - title: 深度学习
+    description: 使计算机在没有明确编程的情况下自动执行。研究方向：机器学习理论，数值优化，大规模分布式计算，异构计算;监督，无监督和强化学习
     icon: fa-cubes
 papers:
   - title: TopicNet Conversation Model

@@ -27,34 +27,29 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse justify-content-end"
+          class="collapse navbar-collapse justify-content-end fs-5"
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a
-                class="nav-link fs-5 active"
-                aria-current="page"
-                href="#sliders"
-                >主页</a
-              >
+              <router-link class="nav-link" to="/"> 主页 </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link fs-5" to="/#research"
+              <router-link class="nav-link" to="/#research"
                 >研究方向</router-link
               >
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link fs-5"
-                href="#tutor"
+              <router-link
+                class="nav-link"
+                to="/#tutor"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 导师介绍
-              </a>
+              </router-link>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <router-link class="dropdown-item" to="pm">彭敏</router-link>
@@ -70,16 +65,17 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#papers"> 论文介绍 </a>
+              <router-link class="nav-link" to="/#team"> 成员介绍 </router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#team"> 成员介绍 </a>
+              <router-link class="nav-link" to="/#projects">
+                实验室工作
+              </router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects"> 项目介绍 </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact"> 联系方式 </a>
+              <router-link class="nav-link" to="/#footer">
+                联系方式
+              </router-link>
             </li>
           </ul>
         </div>
