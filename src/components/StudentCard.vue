@@ -6,7 +6,7 @@
       <span>{{ description }}</span>
       <p>{{ description }}</p>
       <div class="social">
-        <a v-show="email" :href="'mailto:' + email"
+        <a :class="{ visibility: 'hidden' }" :href="'mailto:' + email"
           ><i class="fas fa-envelope"></i
         ></a>
         <a v-show="link" :href="link" target="_blank"
