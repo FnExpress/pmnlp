@@ -1,9 +1,9 @@
 <template>
-  <section id="team">
+  <section class="home-section" id="team">
     <div class="container marketing">
       <!-- Three columns of text below the carousel -->
       <SectionTitle title="成员介绍" />
-      <h2 class="team-subtitle my-4">博士研究生</h2>
+      <h2 class="team-subtitle p-5">博士研究生</h2>
       <div class="row g-4">
         <div v-for="(p, index) in doctor" class="col-md-6 col-lg-3">
           <StudentCard
@@ -14,7 +14,7 @@
           />
         </div>
       </div>
-      <h2 class="team-subtitle my-4">学术硕士研究生</h2>
+      <h2 class="team-subtitle p-5">学术硕士研究生</h2>
       <div class="row g-4">
         <div v-for="p in academic" class="col-md-6 col-lg-3">
           <StudentCard
@@ -25,7 +25,7 @@
           />
         </div>
       </div>
-      <h2 class="team-subtitle my-4">专业硕士研究生</h2>
+      <h2 class="team-subtitle p-5">专业硕士研究生</h2>
       <div class="row g-4">
         <div v-for="p in professional" class="col-md-6 col-lg-3">
           <StudentCard
@@ -36,7 +36,7 @@
           />
         </div>
       </div>
-      <h3 class="team-subtitle my-4">曾在本组的同学</h3>
+      <h3 class="team-subtitle p-5">曾在本组的同学</h3>
       <div class="row g-4">
         <div v-for="p in graduate" class="col-md-6 col-lg-3">
           <StudentCard
@@ -63,7 +63,7 @@ export default {
       doctor: data.students.doctor,
       academic: data.students["academic master"],
       professional: data.students["professional master"],
-      graduate: [],
+      graduate: data.students["graduate students"],
     };
   },
 };

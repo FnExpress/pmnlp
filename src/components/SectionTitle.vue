@@ -1,5 +1,5 @@
 <template>
-  <header class="pt-5 text-center">
+  <header class="p-5 text-center">
     <h1>{{ title }}</h1>
   </header>
 </template>

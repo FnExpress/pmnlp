@@ -259,44 +259,44 @@ students:
   doctor:
     - name: 李冬
       grade: 2017级博士
-      photo: ""
-      field: ""
-      description: ""
-      email: ""
+      photo:
+      field:
+      description:
+      email:
     - name: 韩玮光
       grade: 2018级博士
-      photo: ""
-      field: ""
-      description: ""
-      email: ""
+      photo:
+      field:
+      description:
+      email:
     - name: 刘芳
       grade: 2018级博士
-      photo: ""
-      field: ""
-      description: ""
-      email: ""
+      photo:
+      field:
+      description:
+      email:
     - name: 贾旭
       grade: 2019级博士
-      photo: ""
-      field: ""
-      description: ""
-      email: ""
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261456682.png
+      field:
+      description:
+      email:
     - name: 徐文杰
       grade: 2020级博士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211209151638.png?x-oss-process=style/student
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261455714.jpg
       field: 知识图谱
       description: 山水一程好风光，三生有幸珞珈山
       email: vingerxu@whu.edu.cn
       link: https://www.jaysaligia.site
     - name: 刘奔
       grade: 2021级博士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207203753.png?x-oss-process=style/student
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261457450.jpeg
       field: 图神经网络
       description: ""
       email: liuben123@whu.edu.cn
     - name: 柳凯
       grade: 2021级博士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211208121200.png?x-oss-process=style/student
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261457537.jpeg
       field: 对话生成
       description: ""
       email: zerkvii@gmail.com
@@ -309,25 +309,25 @@ students:
   "academic master":
     - name: 罗娟
       grade: 2019级硕士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211208121131.png?x-oss-process=style/student
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261457088.jpeg
       field: 社会学 心理学
       description: ""
       email: luojuan69@whu.edu.cn
     - name: 张鼎
       grade: 2019级硕士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207172840.png?x-oss-process=style/student
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458346.jpeg
       field: 服务器 容器
       description: ""
       email: 79770999@qq.com
     - name: 袁尤良
       grade: 2020级硕士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207172854.png?x-oss-process=style/student
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458295.jpeg
       field: 自然语言处理
       description: 八月秋寒风怒号，卷我屋上三重茅
       email: 929499176@qq.com
     - name: 谢烁圻
       grade: 2020级硕士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207172828.png?x-oss-process=style/student
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458097.jpeg
       field: 云原生开发
       description: ""
       email: xieshuoqi@126.com
@@ -339,7 +339,7 @@ students:
       email: hyxwhu@qq.com
     - name: 李嘉麒
       grade: 2020级学术硕士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207183927.png?x-oss-process=style/student
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458354.jpeg
       field: ""
       description: ""
       email: luckyseven1579@gmail.com
@@ -352,42 +352,46 @@ students:
   "professional master":
     - name: 武涵
       grade: 2021级专业硕士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211209173357.png?x-oss-process=style/student
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458581.jpg
       field: "\U0001F349 \U0001F3C0 \U0001F3AE"
       description: ""
       email: ""
     - name: 杨世杰
       grade: 2021级专业硕士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211209173419.png?x-oss-process=style/student
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458683.jpg
       field: "\U0001F3D3、\U0001F3AC、\U0001F4DA"
       description: ""
       email: ""
     - name: 许敏章
       grade: 2021级硕士
-      photo: ""
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458831.jpeg
       field: ""
       description: ""
       email: ""
     - name: 彭淼
       grade: 2021级硕士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211209150755.png?x-oss-process=style/student
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261459725.jpeg
       field: 知识图谱
       description: Storm clouds may gather, stars may collide.
       email: ""
       link: https://gknl.github.io
     - name: 陈嘉辉
       grade: 2021级硕士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207172503.png?x-oss-process=style/student
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261459132.jpeg
       field: 多模态
       description: ""
       email: 810014386@qq.com
+  graduate students:
+    - name: 张三
+      grade: 2018级专业硕士
+      photo:
+      field: "\U0001F349 \U0001F3C0 \U0001F3AE"
+      description: ""
+      email: ""
+
 projects:
   - title: 食品安全大数据智能应用技术研究
     time: 2018.12-2021.12
-    description: ""
-    photo: ""
-    field: ""
-    email: ""
   - title: 基于无监督知识提取和多关系表示学习的自动问答关键技术研究
     time: 2018.1-2021.12
     description: 国家自然科学基金面上项目，主持
@@ -430,7 +434,7 @@ projects:
 tutors:
   - name: 彭敏
     subtitle: 武汉大学教授，博士生导师
-    photo: http://cs.whu.edu.cn/upload2018/201905/04/201905042059539539.jpg
+    photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261507089.jpg
     description: 现为武汉大学教授，武汉大学语言与信息研究中心主任，武汉大学人工智能系主任，博士生导师，中文信息学会计算语言学专委会主任，ACM 会员。近年来主持和参与了国家和省部级课题 50 项。担任国际网络研究领域顶级会议 INFOCOM 技术委员会主席，担任中文信息学会 CCL 宣传主席，并在其他相关领域高级别会议上多次担任 TPC Member。曾荣获湖北省科技进步奖一等奖和湖北省自然科学奖二等奖。发表高水平学术论文 90 余篇，主编和参编中英文学术著作 2 部，已授权专利 6 项，软件著作权 8 项。
     interest: 人工智能 自然语言处理 数据挖掘
     education:
@@ -511,11 +515,58 @@ tutors:
       - title: F. Xu, M. Esmaeili, C. Xie, N. Ghani,M.Peng, Q. Liu Enhanced Crankback Signaling for Multi-Domain Traffic Engineering pp.23-27 2010 IEEE ICC
       - title: M.Peng,J. Zhang, M. Li, Y. Hu, Z. He The Street View Character Recognition Based on Support Vector Machine pp.411-415 2009 AIPR
       - title: M.Peng,Laurence T. Yang, W. Zhao, N. Xiong Wireless Service Attributes Classification and Matching Mechanism Based on Decision Tree pp.12-17 2008 AINA
-    patent:
-      - \"可信软件的开发方法与技术\"，2014年湖北省科技进步一等奖
-      - \"可信软件的开发方法与技术\"，2014年湖北省科技进步一等奖
-      - \"可信软件的开发方法与技术\"，2014年湖北省科技进步一等奖
-      - \"可信软件的开发方法与技术\"，2014年湖北省科技进步一等奖
+    project:
+      - title: 食品安全大数据智能应用技术研究
+        time: 2018.12-2021.12
+      - title: 基于无监督知识提取和多关系表示学习的自动问答关键技术研究
+        time: 2018.1-2021.12
+        description: 国家自然科学基金面上项目，主持
+      - title: 社会网络的主题演化分析与传播趋势预测研究
+        time: 2015.1-2018.12
+        description: 国家自然科学基金面上项目，主持
+      - title: 基于反馈式排序框架F-Rank的查询导向的更新式多文档自动摘要研究
+        time: 2010.1-2013.12
+        description: 国家自然科学基金面上项目，主持
+      - title: 可信软件构造理论与方法研究
+        time: 2012.1-2015.12
+        description: 国家自然科学基金重点项目，参与
+      - title: 社会网络XXX
+        time: 2013.1-2013.12
+        description: 国家部级技术改革项目，主持
+      - title: XXX分类与挖掘系统
+        time: 2013.1-2012.12
+        description: 国家部级技术改革项目，主持
+      - title: 面向证券行业的财经新闻与股市研报文本分析
+        time: 2014.1-2016.12
+        description: 横向合作，主持
+      - title: 基于压缩感知的社交网络主题提取与演化分析
+        time: 2013.1-2015.12
+        description: 深圳市知识创新计划基础研究项目，主持
+      - title: 基于P2P的网络实时流媒体平台研究与开发
+        time: 2009.1-2011.12
+        description: 湖北省教育厅高校产学研合作重点项目，主持
+      - title: 面向中文文本信息融合的句子排序研究
+        time: 2008.1-2010.12
+        description: 国家自然科学基金面上项目，参与
+      - title: 微博重要目标及群体分析
+        time: 2011.3-2012.10
+        description: 厅级科技计划项目，主持
+      - title: 基于图模型的网页文本自动文摘研究与应用
+        time: 2009.1-2012.12
+        description: 湖北省自然科学基金项目，主持
+      - title: 微博信息及目标深度挖掘
+        time: 2012.7-2013.7
+        description: 武汉市公安局，主持
+    class: 人工智能、自然语言处理、操作系统原理、Windows操作系统内核原理、电子商务技术等
+    team: 本课题组核心成员包括1名国家名师、1名教授、1名副教授、1名青年教师以及硕博士研究生35名，团队充满活力和钻研精神，是一支具有较高科研实力和创新思维能力、科研成果丰硕及学科交叉合作深入的科研队伍。项目组成员长期专注于自然语言处理、信息检索、数据挖掘等方面的研究，近五年来，主持了相关领域的国家自然科学基金重点项目1项、国家自然科学基金项目5项，以及省部市级科技计划项目共计26项；近三年发表与本研究紧密相关的SCI/EI/ISTP/核心论文共80篇，其中SCI论文36篇、CCF ABC类国际会议论文和网络通信领域顶级国际会议论文共计19篇；参编著作6部；授权和受理国家发明专利和软件著作权7项。
+    award:
+      - 可信软件的开发方法与技术 2014年湖北省科技进步一等奖
+      - Web信息获取、分析、测试过程中若干关键技术的研究与实现 2008湖北省自然科学奖二等奖
+      - 基于WRK的Windows操作系统原理实验教学探索 2008英特尔杯全国计算机教育优秀论文评比 三等奖
+      - Evaluation of Post-Fault Restoration Strategies in Multi-Domain Networks, Feng Xu, Tamal Das, Min Peng, Nasir Ghani，IEEE ANTS 2010最佳论文
+      - 第二届中国创新创业大赛优秀创业团队 中国招商银行 2013.10（指导老师）
+      - 一键报警智能联动平台，“华舟应急杯”湖北省大学生创新设计大赛一等奖。（指导老师）
+      - 第一届“讯飞杯”中文机器阅读理解评测(CCL-CMRC2017)，填空类问题（Cloze-style Question）获得第四名。（指导老师）
     contact:
       address: 武汉大学计算机学院A516
       phone: 027-68775667
@@ -523,7 +574,7 @@ tutors:
       link: http://sc.whu.edu.cn/person/minpeng
   - name: 田纲
     subtitle: 武汉大学副教授
-    photo: http://cs.whu.edu.cn/upload2018/202109/15/202109151256575289.jpg
+    photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261506897.jpg
     description: 科研团队课题组老师3人，课题组博士6人以上，研究生30人以上
     interest: 自然语言处理，知识图谱，多媒体网络通信，视频分析等
     education:
@@ -533,6 +584,7 @@ tutors:
         degree: 武汉大学，国家多媒体软件工程技术研究中心，硕士
       - time: 1994/09-1998/09
         degree: 武汉水利电力大学，动力与机械学院，本科
+    job:
     paper:
       - title: Gang Tian#, Jiajia Huang, Min Peng, et al. Dynamic Sampling of Text Streams and Its Application in Text Analysis[J]. Knowledge and Information Systems. 2017, B类期刊
       - title: Min Peng, Wang Gao, Gang Tian#, et al. Parallelization of Massive Text Stream Compression Based on Compressed Sensing [J]. ACM Transactions on Information Systems. 2017.(通信作者)  A类期刊
@@ -553,13 +605,60 @@ tutors:
       - title: Wang Zhongyuan, Hu Ruimin, Tian Gang#, Fu Youming. Packet Oriented MPEG-4 Decoder Realization over Wireless IP Networks. ISPACS2006 Proceedings, 2006, pp. 812~816.
       - title: Youming Fu, Ruimin Hu, Gang Tian# and Zhongyuan Wang. TCP-Friendly Rate Control for Streaming Service Over 3G network. WCNM 2006,2006.
     project:
-      - title: 国家自然科学基金面上项目，基于产业图谱的重大公共事件产业波及效应预测，2021.01-2024.12，主持
-      - title: 国家重点研发计划重点专项课题，2018YFC1604003，食品安全大数据智能应用技术研究，2018/12-2021/12
-      - title: 国家自然科学基金面上项目，41472288，《面向大数据的城市地下工程施工期安全风险评估方法研究》，2015/01-2018/01
-      - title: 国家自然科学基金面向项目，60970160，《基于反向纹理合成的视频编码技术研究》，2009/08 –2011/03
-      - title: 湖北省自然科学基金面上项目，2014CFB710，视频双目深度信息及三维分片光流感知技术研究，2014/01-2016/01，主持
+      - title: 国家自然科学基金面上项目，基于产业图谱的重大公共事件产业波及效应预测，主持
+        time: 2021.01-2024.12
+      - title: 国家重点研发计划重点专项课题，2018YFC1604003，食品安全大数据智能应用技术研究
+        time: 2018.12-2021.12
+      - title: 国家自然科学基金面上项目，41472288，《面向大数据的城市地下工程施工期安全风险评估方法研究》
+        time: 2015.01-2018.01
+      - title: 国家自然科学基金面向项目，60970160，《基于反向纹理合成的视频编码技术研究》
+        time: 2009.08–2011.03
+      - title: 湖北省自然科学基金面上项目，2014CFB710，视频双目深度信息及三维分片光流感知技术研究，主持
+        time: 2014.01-2016.01
+    class:
+    team: 科研团队课题组老师3人，课题组博士6人以上，研究生30人以上
+    contact:
+      address: 武汉大学计算机学院A503
+      phone:
+      email: tiangang_compute@163.com
+      link: http://cs.whu.edu.cn/teacherinfo.aspx?id=301
   - name: 何炎祥
-    subtitle:
+    subtitle: 武汉大学教授，博士生导师
+    photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261507028.jpg
+    interest: 分布并行处理、可信软件、软件工程、自然语言处理
+    description: 博士、二级教授（2007）、博士生导师，国家教学名师（2009），中国计算机学会（CCF）会士，享受国务院政府特殊津贴（1998）。原武汉大学计算机学院院长。美国Oregon大学计算机及信息科学系硕士，武汉大学计算机科学系博士。所学专业计算机软件。主要研究方向为：分布并行处理、可信软件、软件工程、自然语言处理等。主持和主要承担包括863高技术计划项目、国家自然科学基金重大研究计划项目、国家自然科学基金面上项目、省市科技攻关项目等40余项，发表论文200多篇。出版著作和教材15本。其中，《分布式操作系统》和《编译原理》已被国内许多高校选作教材。获包括国家教学成果一等奖、湖北省科技进步一等奖在内的省部级科技成果和教学成果奖多项。主持“编译原理”国家精品课程，并获宝钢优秀教师特等奖、CCF杰出教育奖，湖北省青少年科技教育工作先进个人、湖北省优秀研究生导师、湖北省名师、武汉大学名师等。先后多次作为高级访问学者到美国UCI大学、Texas大学、Utah州立大学、香港理工大学、香港城市大学等开展合作研究，到法国，英国，日本，加拿大，印度、澳大利亚，爱尔兰，香港等地参加国际学术会议和短期科研合作。曾任国家教育部教学指导委员会成员，国家教育部科学技术委员会信息学部委员，中国计算机学会常务理事，武汉大学校长助理，软件工程国家重点实验室主任，CCF武汉分部首任主席，湖北省计算机学会副理事长，湖北省制造业信息化专家委员会成员，湖北省计算机信息系统集成资质认证专家组成员，湖北省信息化技术证书教育考试工作领导小组成员等。现兼任全国高校计算机教育研究会副理事长，CCF教育专委会主任，高等教育出版社计算机教材引进专家组成员，清华大学出版社“高等学校计算机规划教材” 编审委员会主任，湖北省软件行业协会副理事长，互联网自然语言处理四川省高等学校重点实验室学术委员会主任，湖北省公共财政和经济运行大数据工程技术研究中心专家委员会首席专家，交通物联网技术湖北省重点实验室学术委员会委员，湖北省服装信息化工程技术研究中心学术委员会主任，湖北智慧监狱信息化项目专家技术委员会专家，《软件导刊》杂志编委会主任，《计算机研究与发展》、《计算机工程与应用》、《计算机工程》、《计算机应用》、《小型微型计算机系统》、《计算机科学与探索》、《计算机工程与科学》、《计算机与数字工程》、《计算机教育》、《Intelligent Control and Automation》等杂志编委，中山大学、华中师范大学、广东外语外贸大学、江西财经大学、武汉理工大学、中南民族大学、湖北工业大学兼职教授， 国家重点基础研究发展规划（973）项目“下一代互联网信息存储的组织模式与核心技术研究”和“面向复杂应用环境的数据存储系统理论与技术基础研究”项目专家组专家，国家科技支撑计划“虚拟实验教学环境关键技术研究与应用示范”项目专家组专家和“网络行为安全与青少年发展关键技术研究与示范应用”项目咨询专家组专家，2018国家重点研发计划食品安全关键技术研发重点专项“食品安全大数据关键技术研究”项目专家委员会委员等。多个国际学术会议的大会合作主席、程序委员会合作主席、委员等。
+    education:
+      - time: 1973
+        degree: 武汉大学 数学系 计算数学专业
+      - time: 1975
+        degree: 武汉大学 数学系 计算机软件研究生班
+      - time: 1984-1986
+        degree: 美国Oregon大学 计算机及信息科学系 硕士学位
+      - time: 1996年3月 - 1999年6月
+        degree: 武汉大学 计算机科学 博士
+    job:
+      - time: 1978
+        position: 武汉大学计算机科学系 计算机软件教研室 讲师
+      - time: 1987年4月
+        position: 武汉大学计科系 副主任
+      - time: 1989
+        position: 武汉大学计科系 副教授
+      - time: 1993
+        position: 武汉大学计算机学院 副教授
+      - time: 1997年1月
+        position: 武汉大学计算机学院 副院长
+      - time: 1997年9月
+        position: 武汉大学计算机学院 院长
+      - time: 1997年-2001年
+        position: 软件工程国家重点实验室 主任
+      - time: 1999年4月-2001年1月
+        position: 武汉大学计算机学院 院长
+      - time: 1999年4月-2001年1月
+        position: 武汉大学校长助理
+      - time: 1999年
+        position: 博士生导师
+      - time: 2001年1月—2013年3月
+        position: 武汉大学计算机学院院长。
     paper:
       - title: 陈伟，何炎祥，彭文灵,“一种轻量级的拒绝服务攻击检测方法”, 计算机学报， 2006，29(8)。
       - title: 陈益峰，何炎祥，曹建农，“内容传递网络处理能力受限代理放置贪婪算法”， 软件学报，2007，18(1)。
@@ -582,3 +681,66 @@ tutors:
       - title: "张军, 何炎祥, 沈凡凡, 江南, 李清安. 基于2阶段同步的GPGPU线程块压缩调度方法[J]. 计算机研究与发展, 2016, 53 (6): 1173-1185。"
       - title: 何炎祥，孙松涛，牛菲菲，李飞，用于微博情感分析的一种情感语义增强的深度学习模型，计算机学报，2017, 40 (4):773-790。
       - title: 何炎祥，陈木朝，李清安等，PCRAM损耗均衡研究综述，计算机学报，2018,10,41（41）:2295-2317。
+    projects:
+      - “分布式数据开采研究”，国家教育部骨干教师基金，1999，9—2002，9，主持人。
+      - "“电子商务智能分析系统的研究与应用”，武汉市重点科技计划项目，2001，3—2002，12，项目编号: 20011007087, 主持人。"
+      - "“网上信息收集和分析的基础问题和模型研究”， 国家自然科学基金重大研究计划, 2002，1—2005，12，项目编号: 90104005, 主要参加者。"
+      - “湖北省教育厅办公自动化” ，湖北省教育厅, 2002，4—2002，10 , 主持人。
+      - "“虚拟现实(VR)技术在制造业的应用研究”, 湖北省科技计划项目，2003，3-2005，12, 项目编号: 2002S4108/2002AA102B06,主持人。"
+      - "“海量信息搜索移动Agent迁移问题研究”，湖北省自然科学基金，2003，1—2005，12， 项目编号: 2003ABA047，主持人。"
+      - “Mobile-GPS”，湖北省科技重大攻关计划，2003，9－2005，12，主持人。
+      - "“低速率的拒绝服务攻击模型和防范研究”，国家自然科学基金，2007，1-2007，12，项目编号: 60642006，主持人。"
+      - “康明综合网络服务系统”，香港康明电子有限公司，2007，1-2008，10，主持人。
+      - “上海海尔集成电路 HICC语言编译器”，上海海尔集成电路有限公司，2007，5—2010，12，主持人。
+      - “面向中文文本信息融合的句子排序研究”，国家自然科学基金，2008，01——2010，12，项目编号：60703008，主要参加者。
+      - “面向低速率拒绝服务攻击防范的安全适应性机制研究”，国家自然科学基金，2008，01—2010，12，主持人，项目编号：60773008。
+      - "“动态Web服务组合关键技术及其性能分析研究” ，国家863项目， 2007，8-2009，12，项目编号: 2007AA01Z138，主持人。"
+      - “可信编译理论与实现方法研究” ， 国家自然科学基金“可信软件基础研究”重大研究计划项目，2009，1—2011，12，项目编号：90818018，主持人。
+      - “可信计算的软件理论与关键技术研究”，湖北省自然科学基金计划重点项目，2009，1-2010，12，项目批准号：2008CDA007，主持人。
+      - “汉外词语自动翻译平台”，国家汉语推广项目，2009，11-2010，8，项目编号：WDJD0021，主持人。
+      - “互联网环境中的多语言信息收集系统”，武汉大学985交叉学科项目，2008-2010，项目编号：985YK001，主持人。
+      - “基于编译的高可信嵌入式软件开发与验证方法研究”，国家自然科学基金“可信软件基础研究”重大研究计划项目，2011，01-2011，12，项目编号：91018009，主持人。
+      - “基于编译的嵌入式系统优化研究”， 国家自然科学基金，2012.01-2015.12，项目编号：61170022，主持人。
+      - “可信软件构造理论与方法研究”， 国家自然科学基金“可信软件基础研究”重大研究计划项目重点项目，2012.01-2015.12，项目编号：91118003，主持人。
+      - “面向嵌入式系统绿色需求的编译理论与方法研究”， 国家自然科学基金，主持人， 2014-2017， 项目编号：61373039。
+      - “编译导向的面向片上存储器的低功耗技术研究”，博士点基金（博导类），主持人，2014-2015，项目编号：2013014111002512。
+      - “基于Java的编译器安全验证技术”，华为公司，2016.10-2017.10，主持人，项目编号：YB2015090035。
+      - “武汉航运交易所信息化顶层设计方案”，武汉航运交易所，主持人，2018.2-4。
+      - “视觉算法DSL设计与编译技术”，华为公司，主持人，2018.5-10。
+      - “基于DNN开发框架的高性能优化方法研究”，国家自然科学基金，主持人，2020-2023，项目编号：61972293。
+    class: 本科生主干课程《编译原理》，54学时，4学时/周； 本科生主干课程《C语言程序设计》，54学时，4学时/周； 本科生课程《计算机导论》，18学时，2学时/周；研究生学位课程《高级操作系统》，36学时，3学时/周； 主持博士生讨论班。
+    team: 已指导博后12名，博士58名，毕业硕士生125名，并获硕士学位。现有在读博士生8名，在读硕士生4名。
+    award:
+      - “宝钢优秀教师奖”，宝钢教育奖，1998。
+      - “湖北省青少年科技教育工作先进个人” ，湖北省科学技术协会，湖北省教育厅，湖北省体育局，中国共产主义青年团湖北省委员会，湖北省妇女联合会，2000。
+      - “面向21世纪高级汇编课程教学改革的创新研究与实践”，湖北省高等学校优秀教学成果三等奖，2001，排名第2。
+      - 《高级操作系统》，武汉大学优秀教材奖，2002。
+      - “编译原理”课程教学的综合改革, 武汉大学优秀教学成果一等奖，2002, (排名第1)。
+      - 《编译原理》, 武汉大学名牌课程，2004, (课程组组长，排名第1)。
+      - 湖北省优秀研究生导师，2004，湖北省人民政府学位委员会、湖北省教育厅。
+      - 《编译原理》, 湖北省精品课程，2004，(课程组组长，排名第1)。
+      - “《编译原理》课程教学改革”，2005，湖北省高等学校教学成果二等奖，(排名第1)。
+      - 软件质量保证支撑系统SQAS，湖北省科技进步一等奖，(排名第2)，2005。
+      - 武汉大学优秀博士后合作导师，武汉大学，2005。
+      - 《编译原理》, 国家精品课程，2005，(课程组组长，排名第1)。
+      - 武汉大学名师，武汉大学，2006。
+      - “软件开发维护过程中若干关键方法与技术研究”，湖北省自然科学二等奖，(排名第2)，2006。
+      - “对象代理数据库管理系统TOTEM”, 高等学校科技进步二等奖，(排名第2)，2006。
+      - “Web信息获取、分析、测试过程中若干关键技术的研究与实现”, 湖北省自然科学二等奖，(排名第2)，2008。
+      - 湖北省名师，湖北省教育厅，2009。
+      - 国家教学名师，国家教育部，2009。
+      - 第四届“尊师爱学”我最喜爱的十佳优秀教师，武汉大学，2009。
+      - 2010-2011年度武汉大学师德标兵。
+      - “秉承创新理念，建设系统软件优质课程群，培养计算机学科拔尖人才”，武汉大学教学成果一等奖， 排名第1，2010。
+      - 全国优秀工会积极分子， 中华全国总工会，2013。
+      - “坚持特色办学思想，建设信息安全专业”，湖北省教学成果一等奖， 排名第1，2012。
+      - “创建信息安全专业培养体系，引领信息安全专业建设”，高等教育国家级教学成果一等奖，排名第1，2014，
+      - “可信软件的构造方法与技术”，湖北省科技进步一等奖，排名第1，2014。
+      - 宝钢教育奖优秀教师特等奖，2014。
+      - “大型复杂软件系统的测试技术”，湖北省科技进步一等奖，2016，排名第9。
+      - “构建计算机类本科实践教学体系，引领“以赛促学”创新型人才培养“，湖北省教学成果一等奖，2017，排名第2。CCF杰出教育奖，中国计算机学会（CCF），2017。
+    contact:
+      address: 武汉大学计算机学院E501
+      phone: 027-68775303
+      email: yxhe@whu.edu.cn
+      link: http://cs.whu.edu.cn/teacherinfo.aspx?id=300

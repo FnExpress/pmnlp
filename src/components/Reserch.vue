@@ -1,8 +1,8 @@
 <template>
-  <div class="research-bg">
+  <section class="home-section">
     <div class="container" data-aos="fade-up">
       <section-title id="research" title="研究方向" />
-      <div class="container px-4 py-5">
+      <div class="container px-4">
         <div class="row">
           <div
             class="col-lg-4 col-md-6 d-flex align-items-stretch"
@@ -87,7 +87,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

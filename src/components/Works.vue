@@ -1,88 +1,201 @@
 <template>
-  <div class="container">
-    <SectionTitle title="实验室工作" />
-    <h2 class="text-center p-4">项目</h2>
-    <table class="VirusTable">
-      <thead>
-        <tr>
-          <th>
-            <div>项目名称</div>
-          </th>
-          <th>
-            <div>项目时间</div>
-          </th>
-          <th>
-            <div>项目类型</div>
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(item, index) in data.projects" :key="index">
-          <td>{{ data.projects[index].title }}</td>
-          <td>{{ data.projects[index].time }}</td>
-          <td>{{ data.projects[index].description }}</td>
-        </tr>
-      </tbody>
-    </table>
-    <h2 class="text-center p-4">专利</h2>
-    <h2 class="text-center p-4">产品</h2>
-    <h2 class="text-center p-4">活动</h2>
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="post-box">
-          <div class="post-img">
-            <img
-              src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
-              class="img-fluid"
-              alt=""
-            />
+  <section class="home-section">
+    <div class="container">
+      <SectionTitle id="works" title="实验室工作" />
+      <h2 class="text-center p-4">项目</h2>
+      <table class="VirusTable">
+        <thead>
+          <tr>
+            <th>
+              <div>项目名称</div>
+            </th>
+            <th>
+              <div>项目时间</div>
+            </th>
+            <th>
+              <div>项目类型</div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="(item, index) in data.projects" :key="index">
+            <td>{{ data.projects[index].title }}</td>
+            <td>{{ data.projects[index].time }}</td>
+            <td>{{ data.projects[index].description }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2 class="text-center p-4">专利</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="post-box">
+            <div class="post-img">
+              <img
+                src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <span class="post-date">Tue, September 15</span>
+            <h3 class="post-title">
+              Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
+              sit
+            </h3>
+            <a href="blog-single.html" class="readmore stretched-link mt-auto"
+              ><span>Read More</span><i class="bi bi-arrow-right"></i
+            ></a>
           </div>
-          <span class="post-date">Tue, September 15</span>
-          <h3 class="post-title">
-            Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
-            sit
-          </h3>
-          <a href="blog-single.html" class="readmore stretched-link mt-auto"
-            ><span>Read More</span><i class="bi bi-arrow-right"></i
-          ></a>
+        </div>
+        <div class="col-lg-4">
+          <div class="post-box">
+            <div class="post-img">
+              <img
+                src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <span class="post-date">Fri, August 28</span>
+            <h3 class="post-title">
+              Et repellendus molestiae qui est sed omnis voluptates magnam
+            </h3>
+            <a href="blog-single.html" class="readmore stretched-link mt-auto"
+              ><span>Read More</span><i class="bi bi-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="post-box">
+            <div class="post-img">
+              <img
+                src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <span class="post-date">Mon, July 11</span>
+            <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
+            <a href="blog-single.html" class="readmore stretched-link mt-auto"
+              ><span>Read More</span><i class="bi bi-arrow-right"></i
+            ></a>
+          </div>
         </div>
       </div>
-      <div class="col-lg-4">
-        <div class="post-box">
-          <div class="post-img">
-            <img
-              src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
-              class="img-fluid"
-              alt=""
-            />
+      <h2 class="text-center p-4">产品</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="post-box">
+            <div class="post-img">
+              <img
+                src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <span class="post-date">Tue, September 15</span>
+            <h3 class="post-title">
+              Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
+              sit
+            </h3>
+            <a href="blog-single.html" class="readmore stretched-link mt-auto"
+              ><span>Read More</span><i class="bi bi-arrow-right"></i
+            ></a>
           </div>
-          <span class="post-date">Fri, August 28</span>
-          <h3 class="post-title">
-            Et repellendus molestiae qui est sed omnis voluptates magnam
-          </h3>
-          <a href="blog-single.html" class="readmore stretched-link mt-auto"
-            ><span>Read More</span><i class="bi bi-arrow-right"></i
-          ></a>
+        </div>
+        <div class="col-lg-4">
+          <div class="post-box">
+            <div class="post-img">
+              <img
+                src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <span class="post-date">Fri, August 28</span>
+            <h3 class="post-title">
+              Et repellendus molestiae qui est sed omnis voluptates magnam
+            </h3>
+            <a href="blog-single.html" class="readmore stretched-link mt-auto"
+              ><span>Read More</span><i class="bi bi-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="post-box">
+            <div class="post-img">
+              <img
+                src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <span class="post-date">Mon, July 11</span>
+            <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
+            <a href="blog-single.html" class="readmore stretched-link mt-auto"
+              ><span>Read More</span><i class="bi bi-arrow-right"></i
+            ></a>
+          </div>
         </div>
       </div>
-      <div class="col-lg-4">
-        <div class="post-box">
-          <div class="post-img">
-            <img
-              src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
-              class="img-fluid"
-              alt=""
-            />
+      <h2 class="text-center p-4">活动</h2>
+      mentor
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="post-box">
+            <div class="post-img">
+              <img
+                src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <span class="post-date">Tue, September 15</span>
+            <h3 class="post-title">
+              Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
+              sit
+            </h3>
+            <a href="blog-single.html" class="readmore stretched-link mt-auto"
+              ><span>Read More</span><i class="bi bi-arrow-right"></i
+            ></a>
           </div>
-          <span class="post-date">Mon, July 11</span>
-          <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
-          <a href="blog-single.html" class="readmore stretched-link mt-auto"
-            ><span>Read More</span><i class="bi bi-arrow-right"></i
-          ></a>
+        </div>
+        <div class="col-lg-4">
+          <div class="post-box">
+            <div class="post-img">
+              <img
+                src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <span class="post-date">Fri, August 28</span>
+            <h3 class="post-title">
+              Et repellendus molestiae qui est sed omnis voluptates magnam
+            </h3>
+            <a href="blog-single.html" class="readmore stretched-link mt-auto"
+              ><span>Read More</span><i class="bi bi-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="post-box">
+            <div class="post-img">
+              <img
+                src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <span class="post-date">Mon, July 11</span>
+            <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
+            <a href="blog-single.html" class="readmore stretched-link mt-auto"
+              ><span>Read More</span><i class="bi bi-arrow-right"></i
+            ></a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 <script>
 import data from "/config.yaml";

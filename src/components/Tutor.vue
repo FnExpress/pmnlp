@@ -1,57 +1,26 @@
 <template>
-  <div class="container">
-    <SectionTitle id="tutors" title="导师介绍" />
+  <section class="home-section">
+    <div class="container">
+      <SectionTitle id="tutors" title="导师介绍" />
 
-    <div class="row">
-      <div v-for="n in data" :key="n.name" class="col-lg-4 col-md-6">
-        <div class="member">
-          <div class="pic"><img :src="n.photo" alt="" class="img-fluid" /></div>
-          <div class="member-info">
-            <h4>{{ n.name }}</h4>
-            <span>{{ n.subtitle }}</span>
-            <div class="social"></div>
-          </div>
+      <div class="row">
+        <div v-for="(n, i) in data" :key="n.name" class="col-lg-4 col-md-6">
+          <router-link :to="'/tutor/' + i">
+            <div class="member">
+              <div class="pic">
+                <img :src="n.photo" alt="" class="img-fluid" />
+              </div>
+              <div class="member-info">
+                <h4>{{ n.name }}</h4>
+                <span>{{ n.subtitle }}</span>
+                <div class="social"></div>
+              </div>
+            </div>
+          </router-link>
         </div>
       </div>
     </div>
-
-    <!--    <div class="row g-3">-->
-    <!--      <div class="col-lg-6 row justify-content-center">-->
-    <!--        <img alt="" class="tutor-img col-md-6" :src="photo" />-->
-    <!--        <div-->
-    <!--          class="d-flex flex-column justify-content-between col-md-6 text-center text-md-start"-->
-    <!--        >-->
-    <!--          <h3>彭敏</h3>-->
-    <!--          <dl>-->
-    <!--            <dt>简介</dt>-->
-    <!--            <dd>武汉大学教授，博士生导师</dd>-->
-    <!--            <dt>电话</dt>-->
-    <!--            <dd>027-68775667</dd>-->
-    <!--            <dt>电子邮箱</dt>-->
-    <!--            <dd>pengm@whu.edu.cn</dd>-->
-    <!--          </dl>-->
-    <!--          <router-link class="btn btn-primary align-self-end" to="/pm"-->
-    <!--            >更多</router-link-->
-    <!--          >-->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--      <div class="col-lg-6 row">-->
-    <!--        <img alt="" class="tutor-img col-md-6" :src="photo" />-->
-    <!--        <div class="d-flex flex-column justify-content-between col-md-6">-->
-    <!--          <h3>彭敏</h3>-->
-    <!--          <dl>-->
-    <!--            <dt>简介</dt>-->
-    <!--            <dd>武汉大学教授，博士生导师</dd>-->
-    <!--            <dt>电话</dt>-->
-    <!--            <dd>027-68775667</dd>-->
-    <!--            <dt>电子邮箱</dt>-->
-    <!--            <dd>pengm@whu.edu.cn</dd>-->
-    <!--          </dl>-->
-    <!--          <a href="#" class="btn btn-primary align-self-end">更多</a>-->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--    </div>-->
-  </div>
+  </section>
 </template>
 
 <script>
@@ -129,7 +98,6 @@ export default {
 }
 
 .member span {
-  font-style: italic;
   display: block;
   font-size: 13px;
 }

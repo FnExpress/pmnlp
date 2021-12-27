@@ -52,13 +52,17 @@
               </router-link>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <router-link class="dropdown-item" to="pm">彭敏</router-link>
+                  <router-link class="dropdown-item" to="/tutor/0"
+                    >彭敏</router-link
+                  >
                 </li>
                 <li>
-                  <router-link class="dropdown-item" to="pm">田纲</router-link>
+                  <router-link class="dropdown-item" to="/tutor/1"
+                    >田纲</router-link
+                  >
                 </li>
                 <li>
-                  <router-link class="dropdown-item" to="pm"
+                  <router-link class="dropdown-item" to="/tutor/2"
                     >何炎祥</router-link
                   >
                 </li>
@@ -68,7 +72,7 @@
               <router-link class="nav-link" to="/#team"> 成员介绍 </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/#projects">
+              <router-link class="nav-link" to="/#works">
                 实验室工作
               </router-link>
             </li>

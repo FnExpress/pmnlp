@@ -32,4 +32,7 @@ export default {
   <foot />
 </template>
 
-<style scoped></style>
+<style scoped>
+.home-section {
+}
+</style>

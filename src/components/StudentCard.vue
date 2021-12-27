@@ -1,38 +1,4 @@
 <template>
-  <!--    <svg-->
-  <!--      class="bd-placeholder-img rounded-circle"-->
-  <!--      width="140"-->
-  <!--      height="140"-->
-  <!--      xmlns="http://www.w3.org/2000/svg"-->
-  <!--      role="img"-->
-  <!--      aria-label="Placeholder: 140x140"-->
-  <!--      preserveAspectRatio="xMidYMid slice"-->
-  <!--      focusable="false"-->
-  <!--    >-->
-  <!--      <title>Placeholder</title>-->
-  <!--      <rect width="100%" height="100%" fill="#777" />-->
-  <!--      <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>-->
-  <!--    </svg>-->
-
-  <!--    <h2>张三</h2>-->
-  <!--    <p>知识图谱 喜欢学习</p>-->
-  <!--    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
-
-  <!--  <div class="card bg-light">-->
-  <!--    <div class="card-body text-center px-5 py-4">-->
-  <!--      <img :src="getPhoto" class="mb-3 rounded-circle img-container" alt="" />-->
-  <!--      <h3 class="card-title">{{ name }}</h3>-->
-  <!--      <p class="card-text">{{ description }}</p>-->
-  <!--      <div class="d-flex justify-content-center">-->
-  <!--          <a v-if="email != null" :href="'mailto:' + email"-->
-  <!--            ><i class="fas fa-envelope text-black"></i></a>-->
-  <!--          <a v-if="link != null" :href="link" target="_blank"-->
-  <!--            ><i class="fas fa-home text-black"></i-->
-  <!--          ></a>-->
-  <!--      </div>-->
-  <!--    </div>-->
-  <!--  </div>-->
-
   <div class="member" data-aos="zoom-in" data-aos-delay="400">
     <div class="pic"><img :src="getPhoto" alt="" class="img-fluid" /></div>
     <div class="member-info">
@@ -40,10 +6,10 @@
       <span>{{ description }}</span>
       <p>{{ description }}</p>
       <div class="social">
-        <a v-if="email != null" :href="'mailto:' + email"
+        <a v-show="email" :href="'mailto:' + email"
           ><i class="fas fa-envelope"></i
         ></a>
-        <a v-if="link != null" :href="link" target="_blank"
+        <a v-show="link" :href="link" target="_blank"
           ><i class="fas fa-home"></i
         ></a>
         <!--        <a href=""><i class="fab fa-instagram"></i></a>-->

@@ -1,5 +1,5 @@
 <template>
-  <section class="carousel-margin">
+  <section class="carousel-margin home-section">
     <div class="w-100">
       <div
         id="carouselExampleCaptions"
