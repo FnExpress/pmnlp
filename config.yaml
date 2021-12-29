@@ -484,23 +484,13 @@ product:
     img: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211228160529.png
     link: https://www.jaysaligia.site
 activity:
-  - title: 活动3
-    fileName: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
-      dolore..md
-    route: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
-      dolore.
-    img: >-
-      https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720111240116.png
-    date: 2021-07-25T12:00:00.000Z
   - title: 实验室成功举办冬游
     fileName: 实验室成功举办冬游.md
     route: shi-yan-shi-cheng-gong-ju-ban-dong-you
     img: >-
       https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207205054.png?x-oss-process=style/bg
     date: 2021年12月32日
-  - title: 徐文杰获得实验室写诗大赛冠军
+  - title: pmz获得实验室keep大赛冠军
     fileName: 徐文杰获得实验室写诗大赛冠军.md
     route: xu-wen-jie-huo-de-shi-yan-shi-xie-shi-da-sai-guan-jun
     img: >-

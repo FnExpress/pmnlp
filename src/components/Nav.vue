@@ -7,7 +7,7 @@
         <router-link to="/">
           <a class="navbar-brand" href="#">
             <img
-              src="http://106.55.183.245/img/logo.png"
+              src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211229164359.png"
               height="30"
               class="d-inline-block align-top"
               alt="Bootstrap"
