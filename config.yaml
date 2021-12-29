@@ -356,24 +356,6 @@ students:
       field: 服务器 容器
       description: ''
       email: 79770999@qq.com
-    - name: 袁尤良
-      grade: 2020级硕士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458295.jpeg
-      field: 自然语言处理
-      description: 八月秋寒风怒号，卷我屋上三重茅
-      email: 929499176@qq.com
-    - name: 谢烁圻
-      grade: 2020级硕士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458097.jpeg
-      field: 云原生开发
-      description: ''
-      email: xieshuoqi@126.com
-    - name: 胡宇翔
-      grade: 2020级硕士
-      photo: ''
-      field: ''
-      description: ''
-      email: hyxwhu@qq.com
     - name: 李嘉麒
       grade: 2020级学术硕士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458354.jpeg
@@ -384,19 +366,6 @@ students:
       grade: 2020级硕士
       photo: ''
       field: ''
-      description: ''
-      email: ''
-  professional master:
-    - name: 武涵
-      grade: 2021级专业硕士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458581.jpg
-      field: 🍉 🏀 🎮
-      description: ''
-      email: ''
-    - name: 杨世杰
-      grade: 2021级专业硕士
-      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458683.jpg
-      field: 🏓、🎬、📚
       description: ''
       email: ''
     - name: 许敏章
@@ -418,6 +387,37 @@ students:
       field: 多模态
       description: ''
       email: 810014386@qq.com
+  professional master:
+    - name: 袁尤良
+      grade: 2020级硕士
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458295.jpeg
+      field: 自然语言处理
+      description: 八月秋寒风怒号，卷我屋上三重茅
+      email: 929499176@qq.com
+    - name: 谢烁圻
+      grade: 2020级硕士
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458097.jpeg
+      field: 云原生开发
+      description: ''
+      email: xieshuoqi@126.com
+    - name: 胡宇翔
+      grade: 2020级硕士
+      photo: ''
+      field: ''
+      description: ''
+      email: hyxwhu@qq.com
+    - name: 武涵
+      grade: 2021级专业硕士
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458581.jpg
+      field: 🍉 🏀 🎮
+      description: ''
+      email: ''
+    - name: 杨世杰
+      grade: 2021级专业硕士
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458683.jpg
+      field: 🏓、🎬、📚
+      description: ''
+      email: ''
   graduate students:
     - name: 张三
       grade: 2018级专业硕士
