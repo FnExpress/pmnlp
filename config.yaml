@@ -1,4 +1,3 @@
----
 title: 武汉大学 语言与信息研究中心
 subtitle: 武汉大学计算机学院
 subtitle2: 自然语言处理实验室
@@ -7,12 +6,16 @@ phone: 027-68775667
 office: 武汉大学计算机学院A516
 email: pengm@whu.edu.cn
 backgrounds:
-  - https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207185956.png?x-oss-process=style/bg
-  - https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207190246.png?x-oss-process=style/bg
-  - https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207205054.png?x-oss-process=style/bg
+  - >-
+    https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207185956.png?x-oss-process=style/bg
+  - >-
+    https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207190246.png?x-oss-process=style/bg
+  - >-
+    https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207205054.png?x-oss-process=style/bg
 research:
   - title: 自然语言理解
-    description: 赋予计算机系统以自然语言文本方式与外界交互的能力，追踪和研究最前沿的自然语言文本理解和生成技术，孵化下一代自然语言处理技术与商业应用场景。研究方向：语义分析，知识推理，智能问答，机器翻译等。
+    description: >-
+      赋予计算机系统以自然语言文本方式与外界交互的能力，追踪和研究最前沿的自然语言文本理解和生成技术，孵化下一代自然语言处理技术与商业应用场景。研究方向：语义分析，知识推理，智能问答，机器翻译等。
     icon: fa-comment-dots
   - title: 知识图谱
     description: 显示知识发展进程与结构关系的一系列各种不同的图形，用可视化技术描述知识资源及其载体，挖掘、分析、构建、绘制和显示知识及它们之间的相互联系
@@ -23,263 +26,297 @@ research:
 papers:
   - title: TopicNet Conversation Model
     author: M.Peng, D.Chen, Q.Xie
-    origin:
+    origin: >-
       International Conference on Web Information Systems Engineering. Springer
       International Publishing (WISE) （CCF C类会议）,2018,pp.483-496
-    link: ""
+    link: ''
   - title: Incorporating word embeddings into topic modeling of short texts
     author: W.Gao, M.Peng, H.Wang, Y.Zhang
     origin: Knowledge and Information Systems (KAIS) （CCF B类期刊）,2018,pp.1-23
-    link: ""
+    link: ''
   - title: Bayesian Sparse Topical Coding
     author: M.Peng, Q.Xie, H.Wang
-    origin: IEEE Transactions on Knowledge & Data Engineering (TKDE) （CCF A类期刊）,2018,PP(99):1-1
-    link: ""
-  - title: Parallelization of Massive Textstream Compression Based on Compressed Sensing
+    origin: >-
+      IEEE Transactions on Knowledge & Data Engineering (TKDE) （CCF
+      A类期刊）,2018,PP(99):1-1
+    link: ''
+  - title: >-
+      Parallelization of Massive Textstream Compression Based on Compressed
+      Sensing
     author: M.Peng, W.Gao, H.Wang, Y.Zhang
-    origin: ACM Transactions on Information Systems (TOIS)（CCF A类期刊）,2017,Vol.36 pp.1-18
-    link: ""
+    origin: >-
+      ACM Transactions on Information Systems (TOIS)（CCF A类期刊）,2017,Vol.36
+      pp.1-18
+    link: ''
   - title: Neural Sparse Topical Coding
     author: Min Peng, Qianqian Xie
-    origin: Meeting of the Association for Computational Linguistics (ACL)（CCF A会议）,2018
-    link: ""
-  - title:
-      Mining Event-oriented Topics in Microblog Stream with Unsupervised Multi-view
-      Hierarchical Embedding
+    origin: >-
+      Meeting of the Association for Computational Linguistics (ACL)（CCF
+      A会议）,2018
+    link: ''
+  - title: >-
+      Mining Event-oriented Topics in Microblog Stream with Unsupervised
+      Multi-view Hierarchical Embedding
     author: Min Peng, Jiahui Zhu, Hua Wang
     origin: ACM Transactions on Knowledge Discovery from Data(TKDD) (CCF B类期刊),2018
-    link: ""
+    link: ''
   - title: Dynamic sampling of text streams and its application in text analysis
     author: G.Tian, J.Huang, M.Peng, J.Zhu, Y.Zhang
-    origin: Knowledge and Information Systems (KAIS) （CCF B类期刊）,2017,Vol.53 No.2 pp.507-531
-    link: ""
+    origin: >-
+      Knowledge and Information Systems (KAIS) （CCF B类期刊）,2017,Vol.53 No.2
+      pp.507-531
+    link: ''
   - title: Personalized app recommendation based on app permissions
     author: M.Peng, G.Zeng, Z.Sun, J.Huang
-    origin: "World Wide Web: Internet and Web Information Systems (WWW) （CCF B类期刊）,2017,pp.1-16"
-    link: ""
+    origin: >-
+      World Wide Web: Internet and Web Information Systems (WWW) （CCF
+      B类期刊）,2017,pp.1-16
+    link: ''
   - title: A probabilistic method for emerging topic tracking in Microblog stream
     author: J.Huang, M.Peng, H.Wang
-    origin: "World Wide Web: Internet and Web Information Systems (WWW)（CCF B类期刊）,2017,Vol.20No.2 pp.325-350"
-    link: ""
-  - title:
+    origin: >-
+      World Wide Web: Internet and Web Information Systems (WWW)（CCF
+      B类期刊）,2017,Vol.20No.2 pp.325-350
+    link: ''
+  - title: >-
       High quality information extraction and query-oriented summarization for
       automatic query-reply in social network
     author: M.Peng, B. Gao, J.Zhu, J.Huang, M. Yuan, F. Li
     origin: Expert Systems with Applications (ESWA)（CCF C类期刊）,2016,Vol.44 pp.92-101
-    link: ""
+    link: ''
   - title: Sparse Topical Coding with Sparse Groups
     author: M.Peng, Q.Xie, J.Huang
-    origin:
-      International Conference on Web-Age Information Management. Springer International
-      Publishing (WAIM) （CCF C类会议）,2016,pp.415-426
-    link: ""
-  - title: "KPCA-WT: An Efficient Framework for High Quality Microblog Extraction in Time-Frequency Domain"
+    origin: >-
+      International Conference on Web-Age Information Management. Springer
+      International Publishing (WAIM) （CCF C类会议）,2016,pp.415-426
+    link: ''
+  - title: >-
+      KPCA-WT: An Efficient Framework for High Quality Microblog Extraction in
+      Time-Frequency Domain
     author: M.Peng, X.DaI, K.Zhang, G.Zeng
-    origin:
-      International Conference on Web-Age Information Management. Springer International
-      Publishing (WAIM) （CCF C类会议）,2016,pp.304-315
-    link: ""
-  - title: Improving Distant Supervision of Relation Extraction with Unsupervised Methods
+    origin: >-
+      International Conference on Web-Age Information Management. Springer
+      International Publishing (WAIM) （CCF C类会议）,2016,pp.304-315
+    link: ''
+  - title: >-
+      Improving Distant Supervision of Relation Extraction with Unsupervised
+      Methods
     author: M.Peng, J.Huang, Z.Sun, S.Wang
-    origin:
+    origin: >-
       International Conference on Web Information Systems Engineering. Springer
       International Publishing (WISE) （CCF C类会议）,2016,pp.561-568
-    link: ""
-  - title: "Coherent Topic Hierarchy: A Strategy for Topic Evolutionary Analysis on Microblog Feeds"
+    link: ''
+  - title: >-
+      Coherent Topic Hierarchy: A Strategy for Topic Evolutionary Analysis on
+      Microblog Feeds
     author: J.Zhu, X. Li,M.Peng,J.Huang, T. Qian, J.Huang, J. Liu, R. Hong, P. Liu
-    origin:
-      International Conference on Web-Age Information Management. Springer International
-      Publishing (WAIM) （CCF C类会议）,2015,pp.70-82
-    link: ""
-  - title:
-      Topic Detection from Large Scale of Short Text Stream with High Utility Pattern
-      Clustering
+    origin: >-
+      International Conference on Web-Age Information Management. Springer
+      International Publishing (WAIM) （CCF C类会议）,2015,pp.70-82
+    link: ''
+  - title: >-
+      Topic Detection from Large Scale of Short Text Stream with High Utility
+      Pattern Clustering
     author: J.Huang,M.Peng,H. Wang
-    origin:
+    origin: >-
       International on Conference on Information and Knowledge Management (CIKM)
       （CCF B类会议）,2015,pp.3-10
-    link: ""
-  - title:
+    link: ''
+  - title: >-
       Microblog emerging topic detection method based on Regression models and
       spectral clustering
     author: M.Peng,T. Zhang,J.Huang,J.Zhu,J.Huang
     origin: Computer Engineering, SCI,2015,pp.-
-    link: ""
+    link: ''
   - title: Stock Research Reports Classification Based on Sentiment Analysis
     author: M.Peng,Q. Wang,J.Huang, L. Zhou, X. Hu
     origin: Journal of Wuhan University(Natural Science Edition),2015, pp.124-130
-    link: ""
+    link: ''
   - title: Central Topic Model for Event-oriented Topics Mining in Microblog Stream
     author: M.Peng,J.Zhu, X. Li,J.Huang, H. Wang, Y. Zhang
-    origin:
+    origin: >-
       International on Conference on Information and Knowledge Management (CIKM)
       （CCF B类会议）,2015,pp.1611-1620
-    link: ""
-  - title:
-      High Quality Microblog Extraction Based on Kernel Principal Component Analysis
-      and Wavelet Transformation
+    link: ''
+  - title: >-
+      High Quality Microblog Extraction Based on Kernel Principal Component
+      Analysis and Wavelet Transformation
     author: M.Peng,H. Fu,J.Huang,J.Huang, J. Liu
     origin: Computer Engineering, SCI,2015,pp.-
-    link: ""
-  - title: Automatic Summarization of Microblogs Based on High Quality Information Extraction
+    link: ''
+  - title: >-
+      Automatic Summarization of Microblogs Based on High Quality Information
+      Extraction
     author: M.Peng,B. Gao,J.Huang, J. Liu
     origin: Computer Engineering, SCI,2015,pp.36-42
-    link: ""
-  - title: Mass of short Texts Clustering and Topic Extraction Based on Frequent Itemsets
+    link: ''
+  - title: >-
+      Mass of short Texts Clustering and Topic Extraction Based on Frequent
+      Itemsets
     author: M.Peng, J.Huang,J.Zhu, J.Huang, J. Liu
     origin: Journal of Computer Research and Development,2015,Vol.52 No.9 pp.1941-1953
-    link: ""
-  - title:
-      The Method of Chinese Opinion Sentence Extraction and Polarity Identification
-      Based on Sentimental Elements
+    link: ''
+  - title: >-
+      The Method of Chinese Opinion Sentence Extraction and Polarity
+      Identification Based on Sentimental Elements
     author: N. Liu,Y. He,F. He,M.Peng, J. Liu
     origin: Advanced Materials Research,2013,Vol.765 No.2 pp.1406-1410
-    link: ""
-  - title: A New Method for Micro-blog Platform Users Classification Based on Infinitesimal-time
+    link: ''
+  - title: >-
+      A New Method for Micro-blog Platform Users Classification Based on
+      Infinitesimal-time
     author: N. Liu, Y. He, Q. Chen,M.Peng, Y. Tian
-    origin: IEEE Journal of Optical and Communications Networks,2013,Vol.10 No.9 pp.2569-2579
-    link: ""
+    origin: >-
+      IEEE Journal of Optical and Communications Networks,2013,Vol.10 No.9
+      pp.2569-2579
+    link: ''
   - title: Lightpath Optimization in Multi-Domain Optical Networks
     author: K. Liang,M.Peng, S. Khan, A. Rayes, N. Ghani
     origin: IEEE/OSA OFC,2013,pp.17-21
-    link: ""
+    link: ''
   - title: An Optimization Approach for Multi-Domain Optical Network Provisioning
     author: K. Liang, H. Alazemi, F. Xu, M.Peng, N. Ghani
-    origin: IEEE Journal of Optical and Communications Networks,2013,Vol.5 No.12 pp.1413-1424
-    link: ""
+    origin: >-
+      IEEE Journal of Optical and Communications Networks,2013,Vol.5 No.12
+      pp.1413-1424
+    link: ''
   - title: Virtual Network Reconfiguration in Optical Substrate Networks
     author: F. Gu,M.Peng,S. Khan, A. Rayes, N. Ghani
     origin: IEEE/OSA OFC,2013,pp.6-10
-    link: ""
+    link: ''
   - title: Micro-blogger influence analysis based on use feature
     author: M.Peng,J.Huang,N. Ghani,S. Sun,B. Wu,Y. He,W.Wen
     origin: Journal of Internet Technology,2013,Vol.14 No.2 pp.307-314
-    link: ""
+    link: ''
   - title: Co-Learning Ranking for Query-based Retrieval
     author: M.Peng,J.Huang,J.Zhu, L. Zhou,H. Fu, Y. He,F. Li
     origin: WISE 2013,2013,pp.468-477
-    link: ""
-  - title:
-      High Quality Microblog Extraction based on Multiple Features Fusion and Time-Frequency
-      Transformation
+    link: ''
+  - title: >-
+      High Quality Microblog Extraction based on Multiple Features Fusion and
+      Time-Frequency Transformation
     author: M.Peng,J.Huang,H. Fu,J.Zhu, L. Zhou, Y. He, F. Li
     origin: WISE 2013,2013,pp.188-201
-    link: ""
-  - title:
+    link: ''
+  - title: >-
       A Query Expansion Based on Sentence and Vector Integration Strategy Using
       Universal Gravitation
     author: J.Huang,C. Li,S. Sun,N. Ghani,M.Peng
-    origin: Journal of Information and Computational Science,2012,Vol.19 No.7 pp.5391-5400
-    link: ""
+    origin: >-
+      Journal of Information and Computational Science,2012,Vol.19 No.7
+      pp.5391-5400
+    link: ''
   - title: Evaluation of Post-Fault Restoration Strategies in Multi-Domain Networks
     author: F. Xu,T. Das,M.Peng,N. Ghani
     origin: Optical Switching and Networking,2012,Vol.9 No.2 pp.147-155
-    link: ""
-  - title: The Weighted Shortest Path Search Based on Multi-Agents in Mobile GIS Services
+    link: ''
+  - title: >-
+      The Weighted Shortest Path Search Based on Multi-Agents in Mobile GIS
+      Services
     author: M.Peng,N. Xiong,J. H. Park,A. V. Vasilakos,J. Zhang
-    origin:
+    origin: >-
       Journal of Wireless Communications and Mobile Computing (WCMC),2012,Vol.12
       No.4 pp.302-317
-    link: ""
+    link: ''
   - title: Adaptive Scheduling for Wireless Video Transmission in High-Speed Networks
     author: Z.Wan, N. Xiong, N. Ghani,M.Peng, Athanasios V. Vasilakos, L. Zhou
     origin: IEEE INFOCOM 2011 High Speed Networks Workshop,2011,pp.180-185
-    link: ""
+    link: ''
   - title: Multi-Domain DWDM Network Provisioning For Correlated Failures
     author: M. Esmaeili,M.Peng, S. Khan, J. Finochietto, Y.Jin, N.Ghani
     origin: IEEE/OSA OFC,2011,pp.6-10
-    link: ""
+    link: ''
   - title: Multi-Failure Post-Fault Restoration in Multidomain DWDM Networks
     author: F. Xu,M.Peng, A. Rayes, N. Ghani, Ashwin A. Gumaste
     origin: IEEE/OSA OFC,2011,pp.6-10
-    link: ""
-  - title:
+    link: ''
+  - title: >-
       The Web Information Extraction for Update Summarization Based on Shallow
       Parsing
     author: M.Peng,X. Ma, Y. Tian, Y. Ming, H. Long, Q. Lin
     origin: 3PGCIC,2011,pp.109-114
-    link: ""
+    link: ''
   - title: Query Expansion Based on Conceptual Word Cluster Space Graph
     author: M.Peng,Q. Lin, Y. Tian, M. Yang, Y. Xiao, B. Ni
     origin: NISS,2011,pp.128-133
-    link: ""
+    link: ''
   - title: A Query Expansion Based on Sentence and Vector Integration Strategy
     author: M.Peng,M. Yang, S. Sun, H. Long, N. Ghani, B. Ni, B. Ni
     origin: NISS,2011,pp.41-45
-    link: ""
+    link: ''
   - title: Service overlays for Ethernet LAN over SONET/SDH
     author: N. Ghania,M. Esmaeilia,H. Wub,Y. Qiaoc,R. Wangd,M.Peng, B. Ni
     origin: Optical Switching andNetworking,2010,Vol.7 No.2 pp.54-65
-    link: ""
+    link: ''
   - title: Enhanced Crankback Signaling for Multi-Domain IP/MPLS Networks
     author: M. Esmaeili,F. Xu,M.Peng,N. Ghani,A. Gumastec,J. Finochiettod
     origin: ComputerCommunications,2010,Vol.33 No.18 pp.2215-2223
-    link: ""
+    link: ''
   - title: Enhanced Crankback for Lightpath Setup in Multi-Domain Optical Networks
     author: M. Esmaeili, F. Xu, N. Ghani,C. Xie,M.Peng,Q. Liu, B. Ni
     origin: IEEE Communications Letters,2010,Vol.14 No.5 pp.480-482
-    link: ""
+    link: ''
   - title: Enhanced Crankback Signaling in Multi-Domain Optical Networks
     author: M. Esmaeili, F. Xu, N. Ghani,M.Peng, Q. Liu, B. Ni
     origin: IEEE/OSA OFC,2010, pp.21-25
-    link: ""
+    link: ''
   - title: Multi-Domain Restoration with Crankback IP/MPLS Networks
     author: F. Xu,M.Peng,M. Esmaeili,N. Ghani,A. Rayes
     origin: Optical Switching and Networking,2010,Vol.8 No.1 pp.68-78
-    link: ""
+    link: ''
   - title: Advanced crankback provisioning for multi-domain networks
     author: F. Xu,M.Peng,M. Esmaeili,N. Ghani
     origin: IEEE HPSR,2010,pp.209-214
-    link: ""
+    link: ''
   - title: Post-fault restoration in multi-domain networks with multiple failures
     author: F. Xu,M.Peng,M. Esmaeili, M. Rahnamay-Naeini, S. Khan, N. Ghani,M. Hayat
     origin: IEEE MILCOM,2010,pp.593-598
-    link: ""
-  - title:
+    link: ''
+  - title: >-
       Evaluation of Post-Fault Restoration Strategies in Multi-Domain Networks
       ANTS
     author: F. Xu, T. Das,M.Peng, N. Ghani
     origin: IEEE ANTS,2010,pp.43-45
-    link: ""
+    link: ''
   - title: Enhanced Crankback Signaling for Multi-Domain Traffic Engineering
     author: F. Xu, M. Esmaeili, C. Xie, N. Ghani,M.Peng, Q. Liu
     origin: IEEE ICC,2010,pp.23-27
-    link: ""
+    link: ''
   - title: The Street View Character Recognition Based on Support Vector Machine
     author: M.Peng,J. Zhang, M. Li, Y. Hu, Z. He
     origin: AIPR,2009,pp.411-415
-    link: ""
-  - title:
+    link: ''
+  - title: >-
       Wireless Service Attributes Classification and Matching Mechanism Based on
       Decision Tree
-    author: "M.Peng,Laurence T. Yang, W. Zhao, N. Xiong "
+    author: 'M.Peng,Laurence T. Yang, W. Zhao, N. Xiong '
     origin: AINA,2008,pp.12-17
-    link: ""
+    link: ''
 students:
   doctor:
     - name: 李冬
       grade: 2017级博士
-      photo:
-      field:
-      description:
-      email:
+      photo: null
+      field: null
+      description: null
+      email: null
     - name: 韩玮光
       grade: 2018级博士
-      photo:
-      field:
-      description:
-      email:
+      photo: null
+      field: null
+      description: null
+      email: null
     - name: 刘芳
       grade: 2018级博士
-      photo:
-      field:
-      description:
-      email:
+      photo: null
+      field: null
+      description: null
+      email: null
     - name: 贾旭
       grade: 2019级博士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261456682.png
-      field:
-      description:
+      field: null
+      description: null
       email: jia_xu@whu.edu.cn
     - name: 徐文杰
       grade: 2020级博士
@@ -292,32 +329,32 @@ students:
       grade: 2021级博士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261457450.jpeg
       field: 图神经网络
-      description: ""
+      description: ''
       email: liuben123@whu.edu.cn
     - name: 柳凯
       grade: 2021级博士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261457537.jpeg
       field: 对话生成
-      description: ""
+      description: ''
       email: zerkvii@gmail.com
     - name: 刘磊
       grade: 2022级博士
-      photo: ""
-      field: ""
-      description: ""
-      email: ""
-  "academic master":
+      photo: ''
+      field: ''
+      description: ''
+      email: ''
+  academic master:
     - name: 罗娟
       grade: 2019级硕士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261457088.jpeg
       field: 社会学 心理学
-      description: ""
+      description: ''
       email: luojuan69@whu.edu.cn
     - name: 张鼎
       grade: 2019级硕士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458346.jpeg
       field: 服务器 容器
-      description: ""
+      description: ''
       email: 79770999@qq.com
     - name: 袁尤良
       grade: 2020级硕士
@@ -329,66 +366,65 @@ students:
       grade: 2020级硕士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458097.jpeg
       field: 云原生开发
-      description: ""
+      description: ''
       email: xieshuoqi@126.com
     - name: 胡宇翔
       grade: 2020级硕士
-      photo: ""
-      field: ""
-      description: ""
+      photo: ''
+      field: ''
+      description: ''
       email: hyxwhu@qq.com
     - name: 李嘉麒
       grade: 2020级学术硕士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458354.jpeg
-      field: ""
-      description: ""
+      field: ''
+      description: ''
       email: luckyseven1579@gmail.com
     - name: 彭美政
       grade: 2020级硕士
-      photo: ""
-      field: ""
-      description: ""
-      email: ""
-  "professional master":
+      photo: ''
+      field: ''
+      description: ''
+      email: ''
+  professional master:
     - name: 武涵
       grade: 2021级专业硕士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458581.jpg
-      field: "\U0001F349 \U0001F3C0 \U0001F3AE"
-      description: ""
-      email: ""
+      field: 🍉 🏀 🎮
+      description: ''
+      email: ''
     - name: 杨世杰
       grade: 2021级专业硕士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458683.jpg
-      field: "\U0001F3D3、\U0001F3AC、\U0001F4DA"
-      description: ""
-      email: ""
+      field: 🏓、🎬、📚
+      description: ''
+      email: ''
     - name: 许敏章
       grade: 2021级硕士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458831.jpeg
-      field: ""
-      description: ""
-      email: ""
+      field: ''
+      description: ''
+      email: ''
     - name: 彭淼
       grade: 2021级硕士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261459725.jpeg
       field: 知识图谱
       description: Storm clouds may gather, stars may collide.
-      email: ""
+      email: ''
       link: https://gknl.github.io
     - name: 陈嘉辉
       grade: 2021级硕士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261459132.jpeg
       field: 多模态
-      description: ""
+      description: ''
       email: 810014386@qq.com
   graduate students:
     - name: 张三
       grade: 2018级专业硕士
-      photo:
-      field: "\U0001F349 \U0001F3C0 \U0001F3AE"
-      description: ""
-      email: ""
-
+      photo: null
+      field: 🍉 🏀 🎮
+      description: ''
+      email: ''
 projects:
   - title: 食品安全大数据智能应用技术研究
     time: 2018.12-2021.12
@@ -431,11 +467,91 @@ projects:
   - title: 微博信息及目标深度挖掘
     time: 2012.7-2013.7
     description: 武汉市公安局，主持
+product:
+  - title: 通用型对话机器人
+    img: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211228160529.png
+    link: https://www.jaysaligia.site
+  - title: 专业领域对话机器人
+    img: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211228160529.png
+    link: https://www.jaysaligia.site
+  - title: 阅读理解
+    img: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211228160529.png
+    link: https://www.jaysaligia.site
+  - title: 专家系统+医疗/司法
+    img: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211228160529.png
+    link: https://www.jaysaligia.site
+  - title: 舆情分析
+    img: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211228160529.png
+    link: https://www.jaysaligia.site
+activity:
+  - title: 活动3
+    fileName: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+      dolore..md
+    route: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+      dolore.
+    img: >-
+      https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720111240116.png
+    date: 2021-07-25T12:00:00.000Z
+  - title: 实验室成功举办冬游
+    fileName: 实验室成功举办冬游.md
+    route: shi-yan-shi-cheng-gong-ju-ban-dong-you
+    img: >-
+      https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207205054.png?x-oss-process=style/bg
+    date: 2021年12月32日
+  - title: 徐文杰获得实验室写诗大赛冠军
+    fileName: 徐文杰获得实验室写诗大赛冠军.md
+    route: xu-wen-jie-huo-de-shi-yan-shi-xie-shi-da-sai-guan-jun
+    img: >-
+      https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720111240116.png
+    date: 2021-07-25T12:00:00.000Z
+  - title: 袁尤良获得实验室发色比拼冠军
+    fileName: 袁尤良获得实验室发色比拼冠军.md
+    route: yuan-you-liang-huo-de-shi-yan-shi-fa-se-bi-pin-guan-jun
+    img: >-
+      https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720111240116.png
+    date: 2021-07-25T12:00:00.000Z
+patent:
+  - title: 一种基于NLP的知识图谱构建方法
+    author: 专利作者
+    img: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211228160931.png
+    link: https://www.jaysaligia.site
+    time: 2021年12月29日
+  - title: 一种基于NLP的自动识别分类方法
+    author: 专利作者
+    time: 2021年12月29日
+    link: https://www.jaysaligia.site
+    img: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211228160931.png
+  - title: 一种不知名的奇怪方法
+    author: 专利作者
+    time: 2021年12月29日
+    link: https://www.jaysaligia.site
+    img: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211228160931.png
+  - title: 一种基于NLP的网络日志处理系统及方法
+    author: 专利作者
+    time: 2021年12月29日
+    link: https://www.jaysaligia.site
+    img: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211228160931.png
+  - title: 一种基于NLP的网络日志处理系统及方法
+    author: 专利作者
+    time: 2021年12月29日
+    link: https://www.jaysaligia.site
+    img: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211228160931.png
+  - title: 一种基于NLP的网络日志处理系统及方法
+    author: 专利作者
+    time: 2021年12月29日
+    link: https://www.jaysaligia.site
+    img: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211228160931.png
 tutors:
   - name: 彭敏
     subtitle: 武汉大学教授，博士生导师
     photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261507089.jpg
-    description: 现为武汉大学教授，武汉大学语言与信息研究中心主任，武汉大学人工智能系主任，博士生导师，中文信息学会计算语言学专委会主任，ACM 会员。近年来主持和参与了国家和省部级课题 50 项。担任国际网络研究领域顶级会议 INFOCOM 技术委员会主席，担任中文信息学会 CCL 宣传主席，并在其他相关领域高级别会议上多次担任 TPC Member。曾荣获湖北省科技进步奖一等奖和湖北省自然科学奖二等奖。发表高水平学术论文 90 余篇，主编和参编中英文学术著作 2 部，已授权专利 6 项，软件著作权 8 项。
+    description: >-
+      现为武汉大学教授，武汉大学语言与信息研究中心主任，武汉大学人工智能系主任，博士生导师，中文信息学会计算语言学专委会主任，ACM
+      会员。近年来主持和参与了国家和省部级课题 50 项。担任国际网络研究领域顶级会议 INFOCOM 技术委员会主席，担任中文信息学会 CCL
+      宣传主席，并在其他相关领域高级别会议上多次担任 TPC Member。曾荣获湖北省科技进步奖一等奖和湖北省自然科学奖二等奖。发表高水平学术论文 90
+      余篇，主编和参编中英文学术著作 2 部，已授权专利 6 项，软件著作权 8 项。
     interest: 人工智能 自然语言处理 数据挖掘
     education:
       - time: 1990-09-01 ～ 1994-0 7-01
@@ -458,63 +574,176 @@ tutors:
       - time: 2006
         position: 香港城市大学电子与计算机工程系 访问学者
     paper:
-      - title: "Hu G , Peng M , Zhang Y Unsupervised software repositories mining and its application to code search 50(3):299-322 2020 Software: Practice and Experience (SPE) （CCF B类期刊）"
-      - title: Hu G, Peng M, Zhang Y Neural Joint Attention Code Search over Structure Embeddings for Software Q&A Sites 110773 2020 Journal of Systems and Software (JSS)（CCF B类期刊）
-      - title: "Han W, Peng M, Xie Q DTC: Transfer Learning for Commonsense Machine Comprehension 396: 102-112. 2020 Neurocomputing （CCF C类期刊）"
-      - title: "Han W, Peng M, Xie Q  MSReNet: Multi-step Reformulation for Open-Domain Question Answering pp.292-304. 2020 International Conference on Natural Language Processing and Chinese Computing (NLPCC)（CCF C类会议）"
-      - title: Li R, Hu G, Peng M. Hierarchical Embedding for Code Search in Software Q&A Sites pp.1-10 2020 International Joint Conference on Neural Networks (IJCNN)（CCF C类会议）
-      - title: M.Peng, Q. Liao, W. Hu Pattern Filtering Attention for Distant Supervised Relation Extraction via Online Clustering 2019 International Conference on Web Information Systems Engineering （WISE)（CCF C类会议）
-      - title: Q. Xie, M. Peng, J. Huang 2019 International Joint Conference on Neural Networks (IJCNN), （CCF C类会议）
-      - title: M Peng, S Ouyang, J Zhu Emerging Topic Detection from Microblog Streams Based on Emerging Pattern Mining 2018 International Conference on Computer Supported Cooperative Work in Design (CSCWD)
-      - title: M. Peng, D. Chen, Q.Xie TopicNet Conversation Model pp.483-496 2018 International Conference on Web Information Systems Engineering. Springer International Publishing (WISE) （CCF C类会议）
-      - title: W.Gao, M.Peng, H.Wang, Y.Zhang Incorporating word embeddings into topic modeling of short texts pp.1-23 2018 Knowledge and Information Systems (KAIS) （CCF B类期刊）
-      - title: M. Peng, Q.Xie, H. Wang Bayesian Sparse Topical Coding PP(99):1-1 2018 IEEE Transactions on Knowledge & Data Engineering (TKDE) （CCF A类期刊）
-      - title: M.Peng, W.Gao, H.Wang, Y.Zhang Parallelization of Massive Textstream Compression Based on Compressed Sensing Vol.36 pp.1-18 2017 ACM Transactions on Information Systems (TOIS)（CCF A类期刊）
-      - title: Min Peng, Qianqian Xie Neural Sparse Topical Coding 2018 Meeting of the Association for Computational Linguistics (ACL)（CCF A会议）
-      - title: Min Peng, Jiahui Zhu, Hua Wang  Mining Event-oriented Topics in Microblog Stream with Unsupervised Multi-view Hierarchical Embedding 2018 ACM Transactions on Knowledge Discovery from Data (TKDD)  (CCF B类期刊)
-      - title: G.Tian, J.Huang, M.Peng, J.Zhu, Y.Zhang Dynamic sampling of text streams and its application in text analysis Vol.53 No.2 pp.507-531 2017 Knowledge and Information Systems (KAIS) （CCF B类期刊）
-      - title: "M.Peng, G.Zeng, Z.Sun, J.Huang Personalized app recommendation based on app permissions pp.1-16 2017 World Wide Web: Internet and Web Information Systems (WWW) （CCF B类期刊）"
-      - title: "J.Huang, M.Peng, H.Wang A probabilistic method for emerging topic tracking in Microblog stream Vol.20 No.2 pp.325-350 2017 World Wide Web: Internet and Web Information Systems (WWW)（CCF B类期刊）"
-      - title: M.Peng, B. Gao, J.Zhu, J.Huang, M. Yuan, F. Li High quality information extraction and query-oriented summarization for automatic query-reply in social network Vol.44 pp.92-101 2016  Expert Systems with Applications (ESWA) （CCF C类期刊）
-      - title: M.Peng, Q.Xie, J.Huang Sparse Topical Coding with Sparse Groups pp.415-426 2016 International Conference on Web-Age Information Management. Springer International Publishing (WAIM)  （CCF C类会议）
-      - title: "M.Peng, X.DaI, K.Zhang, G.Zeng KPCA-WT: An Efficient Framework for High Quality Microblog Extraction in Time-Frequency Domain pp.304-315 2016 International Conference on Web-Age Information Management. Springer International Publishing (WAIM)  （CCF C类会议）"
-      - title: M.Peng, J.Huang, Z.Sun, S.Wang Improving Distant Supervision of Relation Extraction with Unsupervised Methods pp.561-568 2016 International Conference on Web Information Systems Engineering. Springer International Publishing (WISE) （CCF C类会议）
-      - title: "J.Zhu, X. Li,M.Peng,J.Huang, T. Qian, J.Huang, J. Liu, R. Hong, P. Liu Coherent Topic Hierarchy: A Strategy for Topic Evolutionary Analysis on Microblog Feeds pp.70-82 2015 International Conference on Web-Age Information Management. Springer International Publishing (WAIM)  （CCF C类会议）"
-      - title: J.Huang,M.Peng,H. Wang Topic Detection from Large Scale of Short Text Stream with High Utility Pattern Clustering pp.3-10 2015 International on Conference on Information and Knowledge Management (CIKM)  （CCF  B类会议）
-      - title: M.Peng,T. Zhang,J.Huang,J.Zhu,J.Huang Microblog emerging topic detection method based on Regression models and spectral clustering pp.- 2015 Computer Engineering, SCI
-      - title: M.Peng,Q. Wang,J.Huang, L. Zhou, X. Hu Stock Research Reports Classification Based on Sentiment Analysis pp.124-130 2015 Journal of Wuhan University(Natural Science Edition)
-      - title: M.Peng,J.Zhu, X. Li,J.Huang, H. Wang, Y. Zhang Central Topic Model for Event-oriented Topics Mining in Microblog Stream pp.1611-1620 2015  International on Conference on Information and Knowledge Management (CIKM)  （CCF  B类会议）
-      - title: M.Peng,H. Fu,J.Huang,J.Huang, J. Liu High Quality Microblog Extraction Based on Kernel Principal Component Analysis and Wavelet Transformation pp.- 2015 Computer Engineering, SCI
-      - title: M.Peng,B. Gao,J.Huang, J. Liu Automatic Summarization of Microblogs Based on High Quality Information Extraction pp.36-42 2015 Computer Engineering, SCI
-      - title: M.Peng, J.Huang,J.Zhu, J.Huang, J. Liu Mass of short Texts Clustering and Topic Extraction Based on Frequent Itemsets Vol.52 No.9 pp.1941-1953 2015 Journal of Computer Research and Development
-      - title: N. Liu,Y. He,F. He,M.Peng, J. Liu The Method of Chinese Opinion Sentence Extraction and Polarity Identification Based on Sentimental Elements Vol.765 No.2 pp.1406-1410 2013 Advanced Materials Research
-      - title: N. Liu, Y. He, Q. Chen,M.Peng, Y. Tian A New Method for Micro-blog Platform Users Classification Based on Infinitesimal-time Vol.10 No.9 pp.2569-2579 2013 IEEE Journal of Optical and Communications Networks
-      - title: K. Liang,M.Peng, S. Khan, A. Rayes, N. Ghani Lightpath Optimization in Multi-Domain Optical Networks pp.17-21 2013 IEEE/OSA OFC
-      - title: K. Liang, H. Alazemi, F. Xu, M.Peng, N. Ghani An Optimization Approach for Multi-Domain Optical Network Provisioning Vol.5 No.12 pp.1413-1424 2013 IEEE Journal of Optical and Communications Networks
-      - title: F. Gu,M.Peng,S. Khan, A. Rayes, N. Ghani Virtual Network Reconfiguration in Optical Substrate Networks pp.6-10 2013 IEEE/OSA OFC
-      - title: M.Peng,J.Huang,N. Ghani,S. Sun,B. Wu,Y. He,W.Wen Micro-blogger influence analysis based on use feature Vol.14 No.2 pp.307-314 2013 Journal of Internet Technology
-      - title: M.Peng,J.Huang,J.Zhu, L. Zhou,H. Fu, Y. He,F. Li Co-Learning Ranking for Query-based Retrieval pp.468-477 2013 WISE 2013
-      - title: M.Peng,J.Huang,H. Fu,J.Zhu, L. Zhou, Y. He, F. Li High Quality Microblog Extraction based on Multiple Features Fusion and Time-Frequency Transformation pp.188-201 2013 WISE 2013
-      - title: J.Huang,C. Li,S. Sun,N. Ghani,M.Peng A Query Expansion Based on Sentence and Vector Integration Strategy Using Universal Gravitation Vol.19 No.7 pp.5391-5400 2012 Journal of Information and Computational Science
-      - title: F. Xu,T. Das,M.Peng,N. Ghani Evaluation of Post-Fault Restoration Strategies in Multi-Domain Networks Vol.9 No.2 pp.147-155 2012 Optical Switching and Networking
-      - title: M.Peng,N. Xiong,J. H. Park,A. V. Vasilakos,J. Zhang The Weighted Shortest Path Search Based on Multi-Agents in Mobile GIS Services Vol.12 No.4 pp.302-317 2012 Journal of Wireless Communications and Mobile Computing (WCMC)
-      - title: Z.Wan, N. Xiong, N. Ghani,M.Peng, Athanasios V. Vasilakos, L. Zhou Adaptive Scheduling for Wireless Video Transmission in High-Speed Networks pp.180-185 2011 IEEE INFOCOM 2011 High Speed Networks Workshop
-      - title: M. Esmaeili,M.Peng, S. Khan, J. Finochietto, Y.Jin, N.Ghani Multi-Domain DWDM Network Provisioning For Correlated Failures pp.6-10 2011 IEEE/OSA OFC
-      - title: F. Xu,M.Peng, A. Rayes, N. Ghani, Ashwin A. Gumaste Multi-Failure Post-Fault Restoration in Multidomain DWDM Networks pp.6-10 2011 IEEE/OSA OFC
-      - title: M.Peng,X. Ma, Y. Tian, Y. Ming, H. Long, Q. Lin The Web Information Extraction for Update Summarization Based on Shallow Parsing pp.109-114 2011 3PGCIC
-      - title: M.Peng,Q. Lin, Y. Tian, M. Yang, Y. Xiao, B. Ni Query Expansion Based on Conceptual Word Cluster Space Graph pp.128-133 2011 NISS
-      - title: M.Peng,M. Yang, S. Sun, H. Long, N. Ghani, B. Ni A Query Expansion Based on Sentence and Vector Integration Strategy pp.41-45 2011 NISS
-      - title: N. Ghania,M. Esmaeilia,H. Wub,Y. Qiaoc,R. Wangd,M.Peng Service overlays for Ethernet LAN over SONET/SDH Vol.7 No.2 pp.54-65 2010 Optical Switching and Networking
-      - title: M. Esmaeili,F. Xu,M.Peng,N. Ghani,A. Gumastec,J. Finochiettod Enhanced Crankback Signaling for Multi-Domain IP/MPLS Networks Vol.33 No.18 pp.2215-2223 2010 Computer Communications
-      - title: M. Esmaeili, F. Xu, N. Ghani,C. Xie,M.Peng,Q. Liu Enhanced Crankback for Lightpath Setup in Multi-Domain Optical Networks Vol.14 No.5 pp.480-482 2010 IEEE Communications Letters
-      - title: M. Esmaeili, F. Xu, N. Ghani,M.Peng, Q. Liu Enhanced Crankback Signaling in Multi-Domain Optical Networks pp.21-25 2010 IEEE/OSA OFC
-      - title: F. Xu,M.Peng,M. Esmaeili,N. Ghani,A. Rayes Multi-Domain Restoration with Crankback IP/MPLS Networks Vol.8 No.1 pp.68-78 2010 Optical Switching and Networking
-      - title: F. Xu,M.Peng,M. Esmaeili,N. Ghani Advanced crankback provisioning for multi-domain networks pp.209-214 2010 IEEE HPSR
-      - title: F. Xu,M.Peng,M. Esmaeili, M. Rahnamay-Naeini, S. Khan, N. Ghani,M. Hayat Post-fault restoration in multi-domain networks with multiple failures pp.593-598 2010 IEEE MILCOM
-      - title: F. Xu, T. Das,M.Peng, N. Ghani Evaluation of Post-Fault Restoration Strategies in Multi-Domain Networks ANTS pp.43-45 2010 IEEE ANTS
-      - title: F. Xu, M. Esmaeili, C. Xie, N. Ghani,M.Peng, Q. Liu Enhanced Crankback Signaling for Multi-Domain Traffic Engineering pp.23-27 2010 IEEE ICC
-      - title: M.Peng,J. Zhang, M. Li, Y. Hu, Z. He The Street View Character Recognition Based on Support Vector Machine pp.411-415 2009 AIPR
-      - title: M.Peng,Laurence T. Yang, W. Zhao, N. Xiong Wireless Service Attributes Classification and Matching Mechanism Based on Decision Tree pp.12-17 2008 AINA
+      - title: "Hu G , Peng M , Zhang Y Unsupervised software repositories mining and its application to code search 50(3):299-322 2020 Software: Practice and Experience (SPE)\_（CCF B类期刊）"
+      - title: >-
+          Hu G, Peng M, Zhang Y Neural Joint Attention Code Search over
+          Structure Embeddings for Software Q&A Sites 110773 2020 Journal of
+          Systems and Software (JSS)（CCF B类期刊）
+      - title: "Han W, Peng M, Xie Q DTC: Transfer Learning for Commonsense Machine Comprehension 396: 102-112. 2020 Neurocomputing\_（CCF C类期刊）"
+      - title: "Han W, Peng M, Xie Q \_MSReNet: Multi-step Reformulation for Open-Domain Question Answering pp.292-304. 2020 International Conference on Natural Language Processing and Chinese Computing (NLPCC)（CCF C类会议）"
+      - title: >-
+          Li R, Hu G, Peng M. Hierarchical Embedding for Code Search in Software
+          Q&A Sites pp.1-10 2020 International Joint Conference on Neural
+          Networks (IJCNN)（CCF C类会议）
+      - title: >-
+          M.Peng, Q. Liao, W. Hu Pattern Filtering Attention for Distant
+          Supervised Relation Extraction via Online Clustering 2019
+          International Conference on Web Information Systems Engineering
+          （WISE)（CCF C类会议）
+      - title: >-
+          Q. Xie, M. Peng, J. Huang 2019 International Joint Conference on
+          Neural Networks (IJCNN), （CCF C类会议）
+      - title: >-
+          M Peng, S Ouyang, J Zhu Emerging Topic Detection from Microblog
+          Streams Based on Emerging Pattern Mining 2018 International Conference
+          on Computer Supported Cooperative Work in Design (CSCWD)
+      - title: "M.\_Peng, D. Chen, Q.Xie TopicNet Conversation Model pp.483-496 2018 International Conference on Web Information Systems Engineering. Springer International Publishing (WISE)\_（CCF C类会议）"
+      - title: "W.Gao,\_M.Peng, H.Wang, Y.Zhang Incorporating word embeddings into topic modeling of short texts pp.1-23 2018 Knowledge and Information Systems (KAIS)\_（CCF B类期刊）"
+      - title: "M.\_Peng, Q.Xie, H.\_Wang Bayesian Sparse Topical Coding PP(99):1-1 2018 IEEE Transactions on Knowledge & Data Engineering (TKDE)\_（CCF A类期刊）"
+      - title: >-
+          M.Peng, W.Gao, H.Wang, Y.Zhang Parallelization of Massive Textstream
+          Compression Based on Compressed Sensing Vol.36 pp.1-18 2017 ACM
+          Transactions on Information Systems (TOIS)（CCF A类期刊）
+      - title: >-
+          Min Peng, Qianqian Xie Neural Sparse Topical Coding 2018 Meeting of
+          the Association for Computational Linguistics (ACL)（CCF A会议）
+      - title: "Min Peng, Jiahui Zhu, Hua Wang \_Mining Event-oriented Topics in Microblog Stream with Unsupervised Multi-view Hierarchical Embedding 2018 ACM Transactions on Knowledge Discovery from Data (TKDD)\_\_(CCF B类期刊)"
+      - title: "G.Tian, J.Huang, M.Peng, J.Zhu, Y.Zhang Dynamic sampling of text streams and its application in text analysis Vol.53 No.2 pp.507-531 2017 Knowledge and Information Systems (KAIS)\_（CCF B类期刊）"
+      - title: "M.Peng, G.Zeng, Z.Sun, J.Huang Personalized app recommendation based on app permissions pp.1-16 2017 World Wide Web: Internet and Web Information Systems (WWW)\_（CCF B类期刊）"
+      - title: "J.Huang, M.Peng,\_H.Wang A probabilistic method for emerging topic tracking in Microblog stream Vol.20 No.2 pp.325-350 2017 World Wide Web: Internet and Web Information Systems (WWW)（CCF B类期刊）"
+      - title: "M.Peng, B. Gao, J.Zhu, J.Huang, M. Yuan, F. Li High quality information extraction and query-oriented summarization for automatic query-reply in social network Vol.44 pp.92-101 2016 \_Expert Systems with Applications (ESWA)\_（CCF C类期刊）"
+      - title: "M.Peng, Q.Xie, J.Huang Sparse Topical Coding with Sparse Groups pp.415-426 2016 International Conference on Web-Age Information Management. Springer International Publishing (WAIM) \_（CCF C类会议）"
+      - title: "M.Peng, X.DaI, K.Zhang, G.Zeng KPCA-WT: An Efficient Framework for High Quality Microblog Extraction in Time-Frequency Domain pp.304-315 2016 International Conference on Web-Age Information Management. Springer International Publishing (WAIM)\_\_（CCF C类会议）"
+      - title: "M.Peng, J.Huang, Z.Sun, S.Wang Improving Distant Supervision of Relation Extraction with Unsupervised Methods pp.561-568 2016 International Conference on Web Information Systems Engineering. Springer International Publishing (WISE)\_（CCF C类会议）"
+      - title: "J.Zhu, X. Li,M.Peng,J.Huang, T. Qian, J.Huang, J. Liu, R. Hong, P. Liu Coherent Topic Hierarchy: A Strategy for Topic Evolutionary Analysis on Microblog Feeds pp.70-82 2015 International Conference on Web-Age Information Management. Springer International Publishing (WAIM)\_\_（CCF C类会议）"
+      - title: "J.Huang,M.Peng,H. Wang Topic Detection from Large Scale of Short Text Stream with High Utility Pattern Clustering pp.3-10 2015 International on Conference on Information and Knowledge Management (CIKM)\_\_（CCF\_ B类会议）"
+      - title: >-
+          M.Peng,T. Zhang,J.Huang,J.Zhu,J.Huang Microblog emerging topic
+          detection method based on Regression models and spectral clustering
+          pp.- 2015 Computer Engineering, SCI
+      - title: >-
+          M.Peng,Q. Wang,J.Huang, L. Zhou, X. Hu Stock Research Reports
+          Classification Based on Sentiment Analysis pp.124-130 2015 Journal of
+          Wuhan University(Natural Science Edition)
+      - title: "M.Peng,J.Zhu, X. Li,J.Huang, H. Wang, Y. Zhang Central Topic Model for Event-oriented Topics Mining in Microblog Stream pp.1611-1620 2015 \_International on Conference on Information and Knowledge Management (CIKM)\_\_（CCF\_ B类会议）"
+      - title: >-
+          M.Peng,H. Fu,J.Huang,J.Huang, J. Liu High Quality Microblog Extraction
+          Based on Kernel Principal Component Analysis and Wavelet
+          Transformation pp.- 2015 Computer Engineering, SCI
+      - title: >-
+          M.Peng,B. Gao,J.Huang, J. Liu Automatic Summarization of Microblogs
+          Based on High Quality Information Extraction pp.36-42 2015 Computer
+          Engineering, SCI
+      - title: >-
+          M.Peng, J.Huang,J.Zhu, J.Huang, J. Liu Mass of short Texts Clustering
+          and Topic Extraction Based on Frequent Itemsets Vol.52 No.9
+          pp.1941-1953 2015 Journal of Computer Research and Development
+      - title: >-
+          N. Liu,Y. He,F. He,M.Peng, J. Liu The Method of Chinese Opinion
+          Sentence Extraction and Polarity Identification Based on Sentimental
+          Elements Vol.765 No.2 pp.1406-1410 2013 Advanced Materials Research
+      - title: >-
+          N. Liu, Y. He, Q. Chen,M.Peng, Y. Tian A New Method for Micro-blog
+          Platform Users Classification Based on Infinitesimal-time Vol.10 No.9
+          pp.2569-2579 2013 IEEE Journal of Optical and Communications Networks
+      - title: >-
+          K. Liang,M.Peng, S. Khan, A. Rayes, N. Ghani Lightpath Optimization in
+          Multi-Domain Optical Networks pp.17-21 2013 IEEE/OSA OFC
+      - title: >-
+          K. Liang, H. Alazemi, F. Xu, M.Peng, N. Ghani An Optimization Approach
+          for Multi-Domain Optical Network Provisioning Vol.5 No.12 pp.1413-1424
+          2013 IEEE Journal of Optical and Communications Networks
+      - title: >-
+          F. Gu,M.Peng,S. Khan, A. Rayes, N. Ghani Virtual Network
+          Reconfiguration in Optical Substrate Networks pp.6-10 2013 IEEE/OSA
+          OFC
+      - title: >-
+          M.Peng,J.Huang,N. Ghani,S. Sun,B. Wu,Y. He,W.Wen Micro-blogger
+          influence analysis based on use feature Vol.14 No.2 pp.307-314 2013
+          Journal of Internet Technology
+      - title: >-
+          M.Peng,J.Huang,J.Zhu, L. Zhou,H. Fu, Y. He,F. Li Co-Learning Ranking
+          for Query-based Retrieval pp.468-477 2013 WISE 2013
+      - title: >-
+          M.Peng,J.Huang,H. Fu,J.Zhu, L. Zhou, Y. He, F. Li High Quality
+          Microblog Extraction based on Multiple Features Fusion and
+          Time-Frequency Transformation pp.188-201 2013 WISE 2013
+      - title: >-
+          J.Huang,C. Li,S. Sun,N. Ghani,M.Peng A Query Expansion Based on
+          Sentence and Vector Integration Strategy Using Universal Gravitation
+          Vol.19 No.7 pp.5391-5400 2012 Journal of Information and Computational
+          Science
+      - title: >-
+          F. Xu,T. Das,M.Peng,N. Ghani Evaluation of Post-Fault Restoration
+          Strategies in Multi-Domain Networks Vol.9 No.2 pp.147-155 2012 Optical
+          Switching and Networking
+      - title: >-
+          M.Peng,N. Xiong,J. H. Park,A. V. Vasilakos,J. Zhang The Weighted
+          Shortest Path Search Based on Multi-Agents in Mobile GIS Services
+          Vol.12 No.4 pp.302-317 2012 Journal of Wireless Communications and
+          Mobile Computing (WCMC)
+      - title: >-
+          Z.Wan, N. Xiong, N. Ghani,M.Peng, Athanasios V. Vasilakos, L. Zhou
+          Adaptive Scheduling for Wireless Video Transmission in High-Speed
+          Networks pp.180-185 2011 IEEE INFOCOM 2011 High Speed Networks
+          Workshop
+      - title: >-
+          M. Esmaeili,M.Peng, S. Khan, J. Finochietto, Y.Jin, N.Ghani
+          Multi-Domain DWDM Network Provisioning For Correlated Failures pp.6-10
+          2011 IEEE/OSA OFC
+      - title: >-
+          F. Xu,M.Peng, A. Rayes, N. Ghani, Ashwin A. Gumaste Multi-Failure
+          Post-Fault Restoration in Multidomain DWDM Networks pp.6-10 2011
+          IEEE/OSA OFC
+      - title: >-
+          M.Peng,X. Ma, Y. Tian, Y. Ming, H. Long, Q. Lin The Web Information
+          Extraction for Update Summarization Based on Shallow Parsing
+          pp.109-114 2011 3PGCIC
+      - title: >-
+          M.Peng,Q. Lin, Y. Tian, M. Yang, Y. Xiao, B. Ni Query Expansion Based
+          on Conceptual Word Cluster Space Graph pp.128-133 2011 NISS
+      - title: >-
+          M.Peng,M. Yang, S. Sun, H. Long, N. Ghani, B. Ni A Query Expansion
+          Based on Sentence and Vector Integration Strategy pp.41-45 2011 NISS
+      - title: >-
+          N. Ghania,M. Esmaeilia,H. Wub,Y. Qiaoc,R. Wangd,M.Peng Service
+          overlays for Ethernet LAN over SONET/SDH Vol.7 No.2 pp.54-65 2010
+          Optical Switching and Networking
+      - title: >-
+          M. Esmaeili,F. Xu,M.Peng,N. Ghani,A. Gumastec,J. Finochiettod Enhanced
+          Crankback Signaling for Multi-Domain IP/MPLS Networks Vol.33 No.18
+          pp.2215-2223 2010 Computer Communications
+      - title: >-
+          M. Esmaeili, F. Xu, N. Ghani,C. Xie,M.Peng,Q. Liu Enhanced Crankback
+          for Lightpath Setup in Multi-Domain Optical Networks Vol.14 No.5
+          pp.480-482 2010 IEEE Communications Letters
+      - title: >-
+          M. Esmaeili, F. Xu, N. Ghani,M.Peng, Q. Liu Enhanced Crankback
+          Signaling in Multi-Domain Optical Networks pp.21-25 2010 IEEE/OSA OFC
+      - title: >-
+          F. Xu,M.Peng,M. Esmaeili,N. Ghani,A. Rayes Multi-Domain Restoration
+          with Crankback IP/MPLS Networks Vol.8 No.1 pp.68-78 2010 Optical
+          Switching and Networking
+      - title: >-
+          F. Xu,M.Peng,M. Esmaeili,N. Ghani Advanced crankback provisioning for
+          multi-domain networks pp.209-214 2010 IEEE HPSR
+      - title: >-
+          F. Xu,M.Peng,M. Esmaeili, M. Rahnamay-Naeini, S. Khan, N. Ghani,M.
+          Hayat Post-fault restoration in multi-domain networks with multiple
+          failures pp.593-598 2010 IEEE MILCOM
+      - title: >-
+          F. Xu, T. Das,M.Peng, N. Ghani Evaluation of Post-Fault Restoration
+          Strategies in Multi-Domain Networks ANTS pp.43-45 2010 IEEE ANTS
+      - title: >-
+          F. Xu, M. Esmaeili, C. Xie, N. Ghani,M.Peng, Q. Liu Enhanced Crankback
+          Signaling for Multi-Domain Traffic Engineering pp.23-27 2010 IEEE ICC
+      - title: >-
+          M.Peng,J. Zhang, M. Li, Y. Hu, Z. He The Street View Character
+          Recognition Based on Support Vector Machine pp.411-415 2009 AIPR
+      - title: >-
+          M.Peng,Laurence T. Yang, W. Zhao, N. Xiong Wireless Service Attributes
+          Classification and Matching Mechanism Based on Decision Tree pp.12-17
+          2008 AINA
     project:
       - title: 食品安全大数据智能应用技术研究
         time: 2018.12-2021.12
@@ -558,12 +787,16 @@ tutors:
         time: 2012.7-2013.7
         description: 武汉市公安局，主持
     class: 人工智能、自然语言处理、操作系统原理、Windows操作系统内核原理、电子商务技术等
-    team: 本课题组核心成员包括1名国家名师、1名教授、1名副教授、1名青年教师以及硕博士研究生35名，团队充满活力和钻研精神，是一支具有较高科研实力和创新思维能力、科研成果丰硕及学科交叉合作深入的科研队伍。项目组成员长期专注于自然语言处理、信息检索、数据挖掘等方面的研究，近五年来，主持了相关领域的国家自然科学基金重点项目1项、国家自然科学基金项目5项，以及省部市级科技计划项目共计26项；近三年发表与本研究紧密相关的SCI/EI/ISTP/核心论文共80篇，其中SCI论文36篇、CCF ABC类国际会议论文和网络通信领域顶级国际会议论文共计19篇；参编著作6部；授权和受理国家发明专利和软件著作权7项。
+    team: >-
+      本课题组核心成员包括1名国家名师、1名教授、1名副教授、1名青年教师以及硕博士研究生35名，团队充满活力和钻研精神，是一支具有较高科研实力和创新思维能力、科研成果丰硕及学科交叉合作深入的科研队伍。项目组成员长期专注于自然语言处理、信息检索、数据挖掘等方面的研究，近五年来，主持了相关领域的国家自然科学基金重点项目1项、国家自然科学基金项目5项，以及省部市级科技计划项目共计26项；近三年发表与本研究紧密相关的SCI/EI/ISTP/核心论文共80篇，其中SCI论文36篇、CCF
+      ABC类国际会议论文和网络通信领域顶级国际会议论文共计19篇；参编著作6部；授权和受理国家发明专利和软件著作权7项。
     award:
       - 可信软件的开发方法与技术 2014年湖北省科技进步一等奖
       - Web信息获取、分析、测试过程中若干关键技术的研究与实现 2008湖北省自然科学奖二等奖
       - 基于WRK的Windows操作系统原理实验教学探索 2008英特尔杯全国计算机教育优秀论文评比 三等奖
-      - Evaluation of Post-Fault Restoration Strategies in Multi-Domain Networks, Feng Xu, Tamal Das, Min Peng, Nasir Ghani，IEEE ANTS 2010最佳论文
+      - >-
+        Evaluation of Post-Fault Restoration Strategies in Multi-Domain
+        Networks, Feng Xu, Tamal Das, Min Peng, Nasir Ghani，IEEE ANTS 2010最佳论文
       - 第二届中国创新创业大赛优秀创业团队 中国招商银行 2013.10（指导老师）
       - 一键报警智能联动平台，“华舟应急杯”湖北省大学生创新设计大赛一等奖。（指导老师）
       - 第一届“讯飞杯”中文机器阅读理解评测(CCL-CMRC2017)，填空类问题（Cloze-style Question）获得第四名。（指导老师）
@@ -584,26 +817,76 @@ tutors:
         degree: 武汉大学，国家多媒体软件工程技术研究中心，硕士
       - time: 1994/09-1998/09
         degree: 武汉水利电力大学，动力与机械学院，本科
-    job:
+    job: null
     paper:
-      - title: Gang Tian#, Jiajia Huang, Min Peng, et al. Dynamic Sampling of Text Streams and Its Application in Text Analysis[J]. Knowledge and Information Systems. 2017, B类期刊
-      - title: Min Peng, Wang Gao, Gang Tian#, et al. Parallelization of Massive Text Stream Compression Based on Compressed Sensing [J]. ACM Transactions on Information Systems. 2017.(通信作者)  A类期刊
-      - title: Peng M, Zeng G, Sun Z, Huang J, Wang H, Tian G#. Personalized app recommendation based on app permissions. World Wide Web. 2017:1-6.(通信作者)  B类期刊
-      - title: WenZhang,Yanlin Chen,Feng Liu,Fei Luo,Gang Tian#,Xiaohong Li. Predicting potential drug-drug interactions by integrating chemical, biological, phenotypic and network data[J]. BMC Bioinformatics (SCI 期刊)
-      - title: Longqiang Luo, Dingfang Li, Wen Zhang, Gang Tian#. Accurate Prediction of Transposon-Derived piRNAs by Integrating Various Sequential and Physicochemical Features[J]. PLoS One. 2016 Apr 13;11(4):e0153268.(B类期刊)
-      - title: Wen Zhang, Yanlin Chen; Feng Liu; Fei Luo; Gang Tian#; Xiaohong Li Predicting potential drug-drug interactions by integrating chemical, biological, phenotypic and network data[J]. BMC Bioinformatics  2017 , 18 (1) :18(SCI期刊)
+      - title: >-
+          Gang Tian#, Jiajia Huang, Min Peng, et al. Dynamic Sampling of Text
+          Streams and Its Application in Text Analysis[J]. Knowledge and
+          Information Systems. 2017, B类期刊
+      - title: >-
+          Min Peng, Wang Gao, Gang Tian#, et al. Parallelization of Massive Text
+          Stream Compression Based on Compressed Sensing [J]. ACM Transactions
+          on Information Systems. 2017.(通信作者)  A类期刊
+      - title: >-
+          Peng M, Zeng G, Sun Z, Huang J, Wang H, Tian G#. Personalized app
+          recommendation based on app permissions. World Wide Web.
+          2017:1-6.(通信作者)  B类期刊
+      - title: >-
+          WenZhang,Yanlin Chen,Feng Liu,Fei Luo,Gang Tian#,Xiaohong Li.
+          Predicting potential drug-drug interactions by integrating chemical,
+          biological, phenotypic and network data[J]. BMC Bioinformatics (SCI
+          期刊)
+      - title: >-
+          Longqiang Luo, Dingfang Li, Wen Zhang, Gang Tian#. Accurate Prediction
+          of Transposon-Derived piRNAs by Integrating Various Sequential and
+          Physicochemical Features[J]. PLoS One. 2016 Apr
+          13;11(4):e0153268.(B类期刊)
+      - title: >-
+          Wen Zhang, Yanlin Chen; Feng Liu; Fei Luo; Gang Tian#; Xiaohong Li
+          Predicting potential drug-drug interactions by integrating chemical,
+          biological, phenotypic and network data[J]. BMC Bioinformatics  2017 ,
+          18 (1) :18(SCI期刊)
       - title: 田纲# 胡瑞敏 王中元 一种基于运动矢量分析的Meanshift目标跟踪算法 中国图象图形学报2010, 15(1):85 ~90
       - title: 田纲# 胡瑞敏 王中元, Trimedia平台MPEG4编码器优化策略 计算机工程与应用2006，42(36) :78 ~81
       - title: 王中元 胡瑞敏 田纲, 整数DCT变换中变换基的通用生成算法 中国图象图形学报,2008,13(6):1061 ~1064
       - title: 王中元 胡瑞敏 田纲, 采用整数变换降低率失真运动估计失真度计算量的研究 小型微型计算机系统,2007,28(8):1520 ~1522
-      - title: "Peng M, Huang J, Sun Z, Gang Tian#et al. Improving Distant Supervision of Relation Extraction with Unsupervised Methods[C].International Conference on Web Information Systems Engineering. Springer International Publishing, 2016: 561-568. （通讯作者）EI会议"
-      - title: "Min Peng(B), Xinyuan Dai, Kai Zhang, Guanyin Zeng and Gang Tian#. KPCA-WT: An Efficient Framework for High Quality Microblog Extraction in Time-Frequency Domain[C].International Conference on Web-Age Information Management. Springer International Publishing, 2016: 304-315.（EI会议）"
-      - title: "Peng M, Xie Q, Huang J, Jiajia Huang, Jiahui Zhu and Gang Tian#. Sparse Topical Coding with Sparse Groups[C]//International Conference on Web-Age Information Management. Springer International Publishing, 2016: 415-426.（EI会议）"
-      - title: Tian Gang#, HU Rui-Min, WANG Zhong-Yuan. Object Tracking Algorithm Based on Meanshift Algorithm Combining with Motion Vector analysis. International Workshop on Education Technology and Computer Science (ETCS2009), 2009， pp 987~990
-      - title: Gang Tian#, RuiMin Hu, Qiong Liu. Improved Temporal scalability video coding based on low-delay scalable two-P frame prediction structure. International Conference on Information Technology and Computer Science(ICTS2009), July 2009, pp.433~436
-      - title: Gang Tian# , Ruimin Hu, Zhongyuan Wang. Improved Object Tracking Algorithm Based on new HSV Color Probability Model. International Symposium on Neural Networks(ISNN2009), 2009,pp.1145~1151
-      - title: Wang Zhongyuan, Hu Ruimin, Tian Gang#, Fu Youming. Packet Oriented MPEG-4 Decoder Realization over Wireless IP Networks. ISPACS2006 Proceedings, 2006, pp. 812~816.
-      - title: Youming Fu, Ruimin Hu, Gang Tian# and Zhongyuan Wang. TCP-Friendly Rate Control for Streaming Service Over 3G network. WCNM 2006,2006.
+      - title: >-
+          Peng M, Huang J, Sun Z, Gang Tian#et al. Improving Distant Supervision
+          of Relation Extraction with Unsupervised Methods[C].International
+          Conference on Web Information Systems Engineering. Springer
+          International Publishing, 2016: 561-568. （通讯作者）EI会议
+      - title: >-
+          Min Peng(B), Xinyuan Dai, Kai Zhang, Guanyin Zeng and Gang Tian#.
+          KPCA-WT: An Efficient Framework for High Quality Microblog Extraction
+          in Time-Frequency Domain[C].International Conference on Web-Age
+          Information Management. Springer International Publishing, 2016:
+          304-315.（EI会议）
+      - title: >-
+          Peng M, Xie Q, Huang J, Jiajia Huang, Jiahui Zhu and Gang Tian#.
+          Sparse Topical Coding with Sparse Groups[C]//International Conference
+          on Web-Age Information Management. Springer International Publishing,
+          2016: 415-426.（EI会议）
+      - title: >-
+          Tian Gang#, HU Rui-Min, WANG Zhong-Yuan. Object Tracking Algorithm
+          Based on Meanshift Algorithm Combining with Motion Vector analysis.
+          International Workshop on Education Technology and Computer Science
+          (ETCS2009), 2009， pp 987~990
+      - title: >-
+          Gang Tian#, RuiMin Hu, Qiong Liu. Improved Temporal scalability video
+          coding based on low-delay scalable two-P frame prediction structure.
+          International Conference on Information Technology and Computer
+          Science(ICTS2009), July 2009, pp.433~436
+      - title: >-
+          Gang Tian# , Ruimin Hu, Zhongyuan Wang. Improved Object Tracking
+          Algorithm Based on new HSV Color Probability Model. International
+          Symposium on Neural Networks(ISNN2009), 2009,pp.1145~1151
+      - title: >-
+          Wang Zhongyuan, Hu Ruimin, Tian Gang#, Fu Youming. Packet Oriented
+          MPEG-4 Decoder Realization over Wireless IP Networks. ISPACS2006
+          Proceedings, 2006, pp. 812~816.
+      - title: >-
+          Youming Fu, Ruimin Hu, Gang Tian# and Zhongyuan Wang. TCP-Friendly
+          Rate Control for Streaming Service Over 3G network. WCNM 2006,2006.
     project:
       - title: 国家自然科学基金面上项目，基于产业图谱的重大公共事件产业波及效应预测，主持
         time: 2021.01-2024.12
@@ -615,18 +898,23 @@ tutors:
         time: 2009.08–2011.03
       - title: 湖北省自然科学基金面上项目，2014CFB710，视频双目深度信息及三维分片光流感知技术研究，主持
         time: 2014.01-2016.01
-    class:
+    class: null
     team: 科研团队课题组老师3人，课题组博士6人以上，研究生30人以上
     contact:
       address: 武汉大学计算机学院A503
-      phone:
+      phone: null
       email: tiangang_compute@163.com
       link: http://cs.whu.edu.cn/teacherinfo.aspx?id=301
   - name: 何炎祥
     subtitle: 武汉大学教授，博士生导师
     photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261507028.jpg
     interest: 分布并行处理、可信软件、软件工程、自然语言处理
-    description: 博士、二级教授（2007）、博士生导师，国家教学名师（2009），中国计算机学会（CCF）会士，享受国务院政府特殊津贴（1998）。原武汉大学计算机学院院长。美国Oregon大学计算机及信息科学系硕士，武汉大学计算机科学系博士。所学专业计算机软件。主要研究方向为：分布并行处理、可信软件、软件工程、自然语言处理等。主持和主要承担包括863高技术计划项目、国家自然科学基金重大研究计划项目、国家自然科学基金面上项目、省市科技攻关项目等40余项，发表论文200多篇。出版著作和教材15本。其中，《分布式操作系统》和《编译原理》已被国内许多高校选作教材。获包括国家教学成果一等奖、湖北省科技进步一等奖在内的省部级科技成果和教学成果奖多项。主持“编译原理”国家精品课程，并获宝钢优秀教师特等奖、CCF杰出教育奖，湖北省青少年科技教育工作先进个人、湖北省优秀研究生导师、湖北省名师、武汉大学名师等。先后多次作为高级访问学者到美国UCI大学、Texas大学、Utah州立大学、香港理工大学、香港城市大学等开展合作研究，到法国，英国，日本，加拿大，印度、澳大利亚，爱尔兰，香港等地参加国际学术会议和短期科研合作。曾任国家教育部教学指导委员会成员，国家教育部科学技术委员会信息学部委员，中国计算机学会常务理事，武汉大学校长助理，软件工程国家重点实验室主任，CCF武汉分部首任主席，湖北省计算机学会副理事长，湖北省制造业信息化专家委员会成员，湖北省计算机信息系统集成资质认证专家组成员，湖北省信息化技术证书教育考试工作领导小组成员等。现兼任全国高校计算机教育研究会副理事长，CCF教育专委会主任，高等教育出版社计算机教材引进专家组成员，清华大学出版社“高等学校计算机规划教材” 编审委员会主任，湖北省软件行业协会副理事长，互联网自然语言处理四川省高等学校重点实验室学术委员会主任，湖北省公共财政和经济运行大数据工程技术研究中心专家委员会首席专家，交通物联网技术湖北省重点实验室学术委员会委员，湖北省服装信息化工程技术研究中心学术委员会主任，湖北智慧监狱信息化项目专家技术委员会专家，《软件导刊》杂志编委会主任，《计算机研究与发展》、《计算机工程与应用》、《计算机工程》、《计算机应用》、《小型微型计算机系统》、《计算机科学与探索》、《计算机工程与科学》、《计算机与数字工程》、《计算机教育》、《Intelligent Control and Automation》等杂志编委，中山大学、华中师范大学、广东外语外贸大学、江西财经大学、武汉理工大学、中南民族大学、湖北工业大学兼职教授， 国家重点基础研究发展规划（973）项目“下一代互联网信息存储的组织模式与核心技术研究”和“面向复杂应用环境的数据存储系统理论与技术基础研究”项目专家组专家，国家科技支撑计划“虚拟实验教学环境关键技术研究与应用示范”项目专家组专家和“网络行为安全与青少年发展关键技术研究与示范应用”项目咨询专家组专家，2018国家重点研发计划食品安全关键技术研发重点专项“食品安全大数据关键技术研究”项目专家委员会委员等。多个国际学术会议的大会合作主席、程序委员会合作主席、委员等。
+    description: >-
+      博士、二级教授（2007）、博士生导师，国家教学名师（2009），中国计算机学会（CCF）会士，享受国务院政府特殊津贴（1998）。原武汉大学计算机学院院长。美国Oregon大学计算机及信息科学系硕士，武汉大学计算机科学系博士。所学专业计算机软件。主要研究方向为：分布并行处理、可信软件、软件工程、自然语言处理等。主持和主要承担包括863高技术计划项目、国家自然科学基金重大研究计划项目、国家自然科学基金面上项目、省市科技攻关项目等40余项，发表论文200多篇。出版著作和教材15本。其中，《分布式操作系统》和《编译原理》已被国内许多高校选作教材。获包括国家教学成果一等奖、湖北省科技进步一等奖在内的省部级科技成果和教学成果奖多项。主持“编译原理”国家精品课程，并获宝钢优秀教师特等奖、CCF杰出教育奖，湖北省青少年科技教育工作先进个人、湖北省优秀研究生导师、湖北省名师、武汉大学名师等。先后多次作为高级访问学者到美国UCI大学、Texas大学、Utah州立大学、香港理工大学、香港城市大学等开展合作研究，到法国，英国，日本，加拿大，印度、澳大利亚，爱尔兰，香港等地参加国际学术会议和短期科研合作。曾任国家教育部教学指导委员会成员，国家教育部科学技术委员会信息学部委员，中国计算机学会常务理事，武汉大学校长助理，软件工程国家重点实验室主任，CCF武汉分部首任主席，湖北省计算机学会副理事长，湖北省制造业信息化专家委员会成员，湖北省计算机信息系统集成资质认证专家组成员，湖北省信息化技术证书教育考试工作领导小组成员等。现兼任全国高校计算机教育研究会副理事长，CCF教育专委会主任，高等教育出版社计算机教材引进专家组成员，清华大学出版社“高等学校计算机规划教材”
+      编审委员会主任，湖北省软件行业协会副理事长，互联网自然语言处理四川省高等学校重点实验室学术委员会主任，湖北省公共财政和经济运行大数据工程技术研究中心专家委员会首席专家，交通物联网技术湖北省重点实验室学术委员会委员，湖北省服装信息化工程技术研究中心学术委员会主任，湖北智慧监狱信息化项目专家技术委员会专家，《软件导刊》杂志编委会主任，《计算机研究与发展》、《计算机工程与应用》、《计算机工程》、《计算机应用》、《小型微型计算机系统》、《计算机科学与探索》、《计算机工程与科学》、《计算机与数字工程》、《计算机教育》、《Intelligent
+      Control and
+      Automation》等杂志编委，中山大学、华中师范大学、广东外语外贸大学、江西财经大学、武汉理工大学、中南民族大学、湖北工业大学兼职教授，
+      国家重点基础研究发展规划（973）项目“下一代互联网信息存储的组织模式与核心技术研究”和“面向复杂应用环境的数据存储系统理论与技术基础研究”项目专家组专家，国家科技支撑计划“虚拟实验教学环境关键技术研究与应用示范”项目专家组专家和“网络行为安全与青少年发展关键技术研究与示范应用”项目咨询专家组专家，2018国家重点研发计划食品安全关键技术研发重点专项“食品安全大数据关键技术研究”项目专家委员会委员等。多个国际学术会议的大会合作主席、程序委员会合作主席、委员等。
     education:
       - time: 1973
         degree: 武汉大学 数学系 计算数学专业
@@ -662,57 +950,94 @@ tutors:
     paper:
       - title: 陈伟，何炎祥，彭文灵,“一种轻量级的拒绝服务攻击检测方法”, 计算机学报， 2006，29(8)。
       - title: 陈益峰，何炎祥，曹建农，“内容传递网络处理能力受限代理放置贪婪算法”， 软件学报，2007，18(1)。
-      - title: Furu Wei, Wenjie Li, Qin Lu, and Yanxiang He. Applying Two-Level Mutual Reinforcement Ranking Algorithm in Query-Oriented Multi-document Summarization. Journal of the American Society for Information Science and Technology。(JASIST)，2009. 60(9)。
+      - title: >-
+          Furu Wei, Wenjie Li, Qin Lu, and Yanxiang He. Applying Two-Level
+          Mutual Reinforcement Ranking Algorithm in Query-Oriented
+          Multi-document Summarization. Journal of the American Society for
+          Information Science and Technology。(JASIST)，2009. 60(9)。
       - title: 何炎祥,曹强,刘陶,韩奕,熊琦，一种基于小波特征提取的低速率DoS 检测方法， 软件学报, 2009,20(4)。
-      - title: Furu Wei, Wenjie Li, Qin Lu, and Yanxiang He. A Document- Sensitive Graph Model for Multi-Document Summarization。 Knowledge and Information Systems. KAIS, 2010.22(2)。
+      - title: >-
+          Furu Wei, Wenjie Li, Qin Lu, and Yanxiang He. A Document- Sensitive
+          Graph Model for Multi-Document Summarization。 Knowledge and
+          Information Systems. KAIS, 2010.22(2)。
       - title: 何炎祥，刘陶，吴伟，“可信编译器关键技术研究”，计算机工程与科学，2010,8，32(8)。
       - title: 何炎祥，吴伟，刘陶等，“可信编译理论及其核心实现技术：研究综述”，计算机科学与探索，2011,1，5（1）。
       - title: 刘陶，何炎祥，熊琦，“一种基于Q学习的LDOS攻击实时防御机制及其CPN实现”，计算机研究与发展，2011,3，48（3）
       - title: 何炎祥,陈勇,吴伟等,“基于编译支持错误跟踪的测试用例自动化生成方法”，计算机研究与发展，2012.9，49（9）。
       - title: 何炎祥，吴伟，陈勇等，“基于SMT求解器的路径敏感程序验证”，软件学报，2012，23(10)。
       - title: 徐超，何炎祥，吴伟等, “基于模拟关系的编译优化实现正确性验证方法”, 电子学报, 2012, 40(11)。
-      - title: Yanxiang He, Wei Wu, Yong Chen，An efficient method for detecting concurrency errors in object-oriented programs. SCIENCE CHINA Information Sciences， 2012, 55(12)。
-      - title: 何炎祥，沈华，一种基于随机Petri网的Web服务组合性能瓶颈定位策略[J].计算机学报Vol.36,No.10，2013.10.1953-1966。
-      - title: "He Y X, Wu W, Chen Y. An efficient method for detecting concurrency errors in object-oriented programs[J]. Science China Information Sciences, 2012, 55(12): 2774-2784。"
-      - title: "何炎祥, 江南, 李清安, 张军, 沈凡凡. 一个机器检测的Micro-Dalvik虚拟机模型[J]. 软件学报, 2015, 26(2): 364-379.。"
-      - title: "何炎祥，沈凡凡，张军，江南，李清安，李建华. 新型非易失性存储器架构的缓存优化方法综述[J]. 计算机研究与发展, 2015, 41(6): 1225-1241。"
-      - title: "江南, 何炎祥，张晓瞳. mJava到Micro-Dalvik虚拟机的编译验证[J]. 电子学报, 2016, 44(7): 1619-1629。"
-      - title: 何炎祥, 张军, 沈凡凡, 江南, 李清安, 刘子骏. 通用图形处理器线程调度优化方法研究综述. 计算机学报[J]. 2016,9,39(9):1733-1749.
-      - title: "张军, 何炎祥, 沈凡凡, 江南, 李清安. 基于2阶段同步的GPGPU线程块压缩调度方法[J]. 计算机研究与发展, 2016, 53 (6): 1173-1185。"
+      - title: >-
+          Yanxiang He, Wei Wu, Yong Chen，An efficient method for detecting
+          concurrency errors in object-oriented programs. SCIENCE CHINA
+          Information Sciences， 2012, 55(12)。
+      - title: >-
+          何炎祥，沈华，一种基于随机Petri网的Web服务组合性能瓶颈定位策略[J].计算机学报Vol.36,No.10，2013.10.1953-1966。
+      - title: >-
+          He Y X, Wu W, Chen Y. An efficient method for detecting concurrency
+          errors in object-oriented programs[J]. Science China Information
+          Sciences, 2012, 55(12): 2774-2784。
+      - title: >-
+          何炎祥, 江南, 李清安, 张军, 沈凡凡. 一个机器检测的Micro-Dalvik虚拟机模型[J]. 软件学报, 2015, 26(2):
+          364-379.。
+      - title: >-
+          何炎祥，沈凡凡，张军，江南，李清安，李建华. 新型非易失性存储器架构的缓存优化方法综述[J]. 计算机研究与发展, 2015, 41(6):
+          1225-1241。
+      - title: >-
+          江南, 何炎祥，张晓瞳. mJava到Micro-Dalvik虚拟机的编译验证[J]. 电子学报, 2016, 44(7):
+          1619-1629。
+      - title: >-
+          何炎祥, 张军, 沈凡凡, 江南, 李清安, 刘子骏. 通用图形处理器线程调度优化方法研究综述. 计算机学报[J].
+          2016,9,39(9):1733-1749.
+      - title: >-
+          张军, 何炎祥, 沈凡凡, 江南, 李清安. 基于2阶段同步的GPGPU线程块压缩调度方法[J]. 计算机研究与发展, 2016, 53
+          (6): 1173-1185。
       - title: 何炎祥，孙松涛，牛菲菲，李飞，用于微博情感分析的一种情感语义增强的深度学习模型，计算机学报，2017, 40 (4):773-790。
       - title: 何炎祥，陈木朝，李清安等，PCRAM损耗均衡研究综述，计算机学报，2018,10,41（41）:2295-2317。
     projects:
       - “分布式数据开采研究”，国家教育部骨干教师基金，1999，9—2002，9，主持人。
-      - "“电子商务智能分析系统的研究与应用”，武汉市重点科技计划项目，2001，3—2002，12，项目编号: 20011007087, 主持人。"
-      - "“网上信息收集和分析的基础问题和模型研究”， 国家自然科学基金重大研究计划, 2002，1—2005，12，项目编号: 90104005, 主要参加者。"
+      - '“电子商务智能分析系统的研究与应用”，武汉市重点科技计划项目，2001，3—2002，12，项目编号: 20011007087, 主持人。'
+      - >-
+        “网上信息收集和分析的基础问题和模型研究”， 国家自然科学基金重大研究计划, 2002，1—2005，12，项目编号: 90104005,
+        主要参加者。
       - “湖北省教育厅办公自动化” ，湖北省教育厅, 2002，4—2002，10 , 主持人。
-      - "“虚拟现实(VR)技术在制造业的应用研究”, 湖北省科技计划项目，2003，3-2005，12, 项目编号: 2002S4108/2002AA102B06,主持人。"
-      - "“海量信息搜索移动Agent迁移问题研究”，湖北省自然科学基金，2003，1—2005，12， 项目编号: 2003ABA047，主持人。"
+      - >-
+        “虚拟现实(VR)技术在制造业的应用研究”, 湖北省科技计划项目，2003，3-2005，12, 项目编号:
+        2002S4108/2002AA102B06,主持人。
+      - '“海量信息搜索移动Agent迁移问题研究”，湖北省自然科学基金，2003，1—2005，12， 项目编号: 2003ABA047，主持人。'
       - “Mobile-GPS”，湖北省科技重大攻关计划，2003，9－2005，12，主持人。
-      - "“低速率的拒绝服务攻击模型和防范研究”，国家自然科学基金，2007，1-2007，12，项目编号: 60642006，主持人。"
+      - '“低速率的拒绝服务攻击模型和防范研究”，国家自然科学基金，2007，1-2007，12，项目编号: 60642006，主持人。'
       - “康明综合网络服务系统”，香港康明电子有限公司，2007，1-2008，10，主持人。
       - “上海海尔集成电路 HICC语言编译器”，上海海尔集成电路有限公司，2007，5—2010，12，主持人。
       - “面向中文文本信息融合的句子排序研究”，国家自然科学基金，2008，01——2010，12，项目编号：60703008，主要参加者。
       - “面向低速率拒绝服务攻击防范的安全适应性机制研究”，国家自然科学基金，2008，01—2010，12，主持人，项目编号：60773008。
-      - "“动态Web服务组合关键技术及其性能分析研究” ，国家863项目， 2007，8-2009，12，项目编号: 2007AA01Z138，主持人。"
-      - “可信编译理论与实现方法研究” ， 国家自然科学基金“可信软件基础研究”重大研究计划项目，2009，1—2011，12，项目编号：90818018，主持人。
+      - '“动态Web服务组合关键技术及其性能分析研究” ，国家863项目， 2007，8-2009，12，项目编号: 2007AA01Z138，主持人。'
+      - >-
+        “可信编译理论与实现方法研究” ，
+        国家自然科学基金“可信软件基础研究”重大研究计划项目，2009，1—2011，12，项目编号：90818018，主持人。
       - “可信计算的软件理论与关键技术研究”，湖北省自然科学基金计划重点项目，2009，1-2010，12，项目批准号：2008CDA007，主持人。
       - “汉外词语自动翻译平台”，国家汉语推广项目，2009，11-2010，8，项目编号：WDJD0021，主持人。
       - “互联网环境中的多语言信息收集系统”，武汉大学985交叉学科项目，2008-2010，项目编号：985YK001，主持人。
-      - “基于编译的高可信嵌入式软件开发与验证方法研究”，国家自然科学基金“可信软件基础研究”重大研究计划项目，2011，01-2011，12，项目编号：91018009，主持人。
+      - >-
+        “基于编译的高可信嵌入式软件开发与验证方法研究”，国家自然科学基金“可信软件基础研究”重大研究计划项目，2011，01-2011，12，项目编号：91018009，主持人。
       - “基于编译的嵌入式系统优化研究”， 国家自然科学基金，2012.01-2015.12，项目编号：61170022，主持人。
-      - “可信软件构造理论与方法研究”， 国家自然科学基金“可信软件基础研究”重大研究计划项目重点项目，2012.01-2015.12，项目编号：91118003，主持人。
+      - >-
+        “可信软件构造理论与方法研究”，
+        国家自然科学基金“可信软件基础研究”重大研究计划项目重点项目，2012.01-2015.12，项目编号：91118003，主持人。
       - “面向嵌入式系统绿色需求的编译理论与方法研究”， 国家自然科学基金，主持人， 2014-2017， 项目编号：61373039。
       - “编译导向的面向片上存储器的低功耗技术研究”，博士点基金（博导类），主持人，2014-2015，项目编号：2013014111002512。
       - “基于Java的编译器安全验证技术”，华为公司，2016.10-2017.10，主持人，项目编号：YB2015090035。
       - “武汉航运交易所信息化顶层设计方案”，武汉航运交易所，主持人，2018.2-4。
       - “视觉算法DSL设计与编译技术”，华为公司，主持人，2018.5-10。
       - “基于DNN开发框架的高性能优化方法研究”，国家自然科学基金，主持人，2020-2023，项目编号：61972293。
-    class: 本科生主干课程《编译原理》，54学时，4学时/周； 本科生主干课程《C语言程序设计》，54学时，4学时/周； 本科生课程《计算机导论》，18学时，2学时/周；研究生学位课程《高级操作系统》，36学时，3学时/周； 主持博士生讨论班。
+    class: >-
+      本科生主干课程《编译原理》，54学时，4学时/周； 本科生主干课程《C语言程序设计》，54学时，4学时/周；
+      本科生课程《计算机导论》，18学时，2学时/周；研究生学位课程《高级操作系统》，36学时，3学时/周； 主持博士生讨论班。
     team: 已指导博后12名，博士58名，毕业硕士生125名，并获硕士学位。现有在读博士生8名，在读硕士生4名。
     award:
       - “宝钢优秀教师奖”，宝钢教育奖，1998。
-      - “湖北省青少年科技教育工作先进个人” ，湖北省科学技术协会，湖北省教育厅，湖北省体育局，中国共产主义青年团湖北省委员会，湖北省妇女联合会，2000。
+      - >-
+        “湖北省青少年科技教育工作先进个人”
+        ，湖北省科学技术协会，湖北省教育厅，湖北省体育局，中国共产主义青年团湖北省委员会，湖北省妇女联合会，2000。
       - “面向21世纪高级汇编课程教学改革的创新研究与实践”，湖北省高等学校优秀教学成果三等奖，2001，排名第2。
       - 《高级操作系统》，武汉大学优秀教材奖，2002。
       - “编译原理”课程教学的综合改革, 武汉大学优秀教学成果一等奖，2002, (排名第1)。
@@ -738,7 +1063,8 @@ tutors:
       - “可信软件的构造方法与技术”，湖北省科技进步一等奖，排名第1，2014。
       - 宝钢教育奖优秀教师特等奖，2014。
       - “大型复杂软件系统的测试技术”，湖北省科技进步一等奖，2016，排名第9。
-      - “构建计算机类本科实践教学体系，引领“以赛促学”创新型人才培养“，湖北省教学成果一等奖，2017，排名第2。CCF杰出教育奖，中国计算机学会（CCF），2017。
+      - >-
+        “构建计算机类本科实践教学体系，引领“以赛促学”创新型人才培养“，湖北省教学成果一等奖，2017，排名第2。CCF杰出教育奖，中国计算机学会（CCF），2017。
     contact:
       address: 武汉大学计算机学院E501
       phone: 027-68775303

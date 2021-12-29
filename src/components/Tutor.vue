@@ -1,12 +1,12 @@
 <template>
   <section class="home-section">
-    <div class="container">
+    <div class="container"  >
       <SectionTitle id="tutors" title="导师介绍" />
 
       <div class="row">
         <div v-for="(n, i) in data" :key="n.name" class="col-lg-4 col-md-6">
           <router-link :to="'/tutor/' + i">
-            <div class="member">
+            <div class="member" data-aos="zoom-in" data-aos-delay="400">
               <div class="pic">
                 <img :src="n.photo" alt="" class="img-fluid" />
               </div>

@@ -1,0 +1,21 @@
+activity:
+  - title: My Cool App
+    route: shi-yan-shi-cheng-gong-ju-ban-dong-you-.md
+    img: >-
+      https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211207205054.png?x-oss-process=style/bg
+    date: 2021年12月32日
+  - title: 活动1
+    route: huo-dong-1.md
+    img: >-
+      https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720111240116.png
+    date: 2021-07-25T12:00:00.000Z
+  - title: 活动2
+    route: huo-dong-2.md
+    img: >-
+      https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720111240116.png
+    date: 2021-07-25T12:00:00.000Z
+  - title: 活动3
+    route: huo-dong-3.md
+    img: >-
+      https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720111240116.png
+    date: 2021-07-25T12:00:00.000Z

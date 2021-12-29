@@ -1,0 +1,240 @@
+---
+title: 活动3
+date: 2021-07-25 12:00:00
+img: https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720111240116.png
+---
+# 活动3
+
+Android 接口定义语言 (AIDL) 与您可能使用过的其他接口语言 (IDL) 类似。您可以利用它定义客户端与服务均认可的编程接口，以便二者使用进程间通信 (IPC) 进行相互通信。在 Android 中，一个进程通常无法访问另一个进程的内存。
+
+**定义 AIDL 接口**
+
+必须在 `.aidl` 文件中使用 Java 编程语言的语法定义 AIDL 接口，然后将其保存至应用的源代码（在 `src/` 目录中）内，这类应用会托管服务或与服务进行绑定。
+
+在构建每个包含 `.aidl` 文件的应用时，Android SDK 工具会生成基于该 `.aidl` 文件的 `IBinder` 接口，并将其保存到项目的 `gen/` 目录中。服务必须视情况实现 `IBinder` 接口。然后，客户端应用便可绑定到该服务，并调用 `IBinder` 中的方法来执行 IPC。
+
+1. 创建`.aidl`文件
+
+2. 实现接口
+
+   Android SDK 工具根据`.aidl`文件，使用 Java 生成接口，此接口拥有一个名为 `Stub` 的内部抽象类，用于扩展 `Binder` 类并实现 AIDL 接口中的方法。您必须扩展 `Stub` 类并实现这些方法。
+
+3. 向 client 公开接口
+
+   实现 `Service` 并重写 `onBind()`，从而返回 `Stub` 类的实现。
+
+**Binder**是 Android 提供的一套进程间相互通信框架。用来多进程间发送消息，同步和共享内存
+
+已有的通信方式：共享文件，Socket， Pipe， Binder 都是**IPC**
+
+Socket 效率低，开销大；消息队列和管道用的 存储-转发 两次拷贝过程
+
+**Local Socket** **Shared Memory** 有安全性问题，无法在权限系统监控下进行
+
+![image-20210720111240116](https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720111240116.png)
+
+![image-20210720111256733](https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720111256733.png)
+
+1. Binder 是 Android 提供的一套进程间通信框架。
+2. 系统服务 ActivityManagerService,LocationManagerService，等都是在单独进程中的，使用 binder 和应用进行通信
+
+![image-20210720111325058](https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720111325058.png)
+
+1. Android 中的应用层和系统服务层不在同一个进程，系统服务在单独的进程中。
+2. Android 中不同应用属于不同的进程中。
+
+![image-20210720111536190](https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720111536190.png)
+
+避免 Client 和 Service 直接处理 Binder，Client 增加 Manager 和代理，Service 用 Stub 处理
+
+![image-20210720111708515](https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720111708515.png)
+
+流程
+
+![image-20210720111846064](https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720111846064.png)
+
+**获取服务过程**：
+
+第一步：**client**要请求服务，比如说在**activity**中调用`context.getSystemService()`方法，这个时候**serviceManager**就会使用`getService（name）`，然后就会调用到**native**层中的**ServiceManagerNative**类中的`getService(name)`方法。
+
+第二步：**ServiceManagerNative**会通过 Binder**发送**一条**SVG_MGR_GET_SERVICE**的指令，然后通过`svcmgr_handler()`调用`do_find_service（）`方法去**svc_list**中查找到相关的**service**。
+
+第三步：查找到相应的服务后就会通过**Binder**将服务传给**ServiceManagerNative**，然后传给**serviceManager**，最后**client**就可以使用了。
+
+注意： 服务是在**svclist**中保存的，**svclist**是一个链表，因此客户端调用的服务必须要先注册到**svclist**中。
+
+**注册服务过程**：
+
+第一步： **service**通过调用**serviceManager**中的**addService**方法，然后调用**ServiceManagerNative**类中的`addservice(name)`方法。
+
+第二步： **ServiceManagerNative**会通过**Binder**发送一条**SVG_MGR_ADD_SERVICE**的指令，然后通过`svcmgr_handler()`调用`do_add_service（）`方法往**svc_list**中添加相应的**service**。
+
+重点：所有的服务都要先注册到**svc_list**中才能被**client**调用到。**svc_list**以**linkedlist**的形式保存这些服务。
+
+还就那个都通过**Manager**，向**Native**发送指令，再通过**Binder**通信，去调用**Framework**层的服务
+
+![image-20210720112626733](https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210720112626733.png)
+
+代理模式：
+
+client 通过 managerProxy(中间还有一个 Manager)去和 binder 交互，service 通过 stub 和 binder 交互
+
+桥接模式：
+
+JNI
+
+
+
+AIDL 跨进程方法调用
+
+![image-20210721152107610](https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210721152107610.png)
+
+实现了`Parcelable`接口的实体类，能够序列化和反序列化进行传输
+
+> Person
+
+```kotlin
+class Person() : Parcelable {
+
+    lateinit var firstName: String
+    lateinit var lastName: String
+
+    constructor(firstName: String, lastName: String) : this() {
+        this.firstName = firstName
+        this.lastName = lastName
+    }
+
+    constructor(parcel: Parcel) : this() {
+        this.firstName = parcel.readString()!!
+        this.lastName = parcel.readString()!!
+    }
+
+    override fun describeContents(): Int {
+        return 0
+    }
+
+    override fun writeToParcel(dest: Parcel?, flags: Int) {
+        dest?.writeString(firstName)
+        dest?.writeString(lastName)
+    }
+
+    companion object CREATOR : Parcelable.Creator<Person> {
+        override fun createFromParcel(parcel: Parcel): Person {
+            return Person(parcel)
+        }
+
+        override fun newArray(size: Int): Array<Person?> {
+            return arrayOfNulls(size)
+        }
+    }
+}
+```
+
+> Person.aidl
+
+```aidl
+package com.spg.aidlapp;
+parcelable Person;
+```
+
+> IPersonManager.aidl
+
+接口中声明可以被调用的方法
+
+```aidl
+package com.spg.aidlapp;
+import com.spg.aidlapp.Person;
+
+interface IPersonManager {
+    List<Person> getPersonList();
+    void addPerson(in Person person);
+}
+```
+
+`command` + `F9`  自动生成对应的接口文件
+
+![image-20210721152550986](https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210721152550986.png)
+
+> AIDLService 服务端
+
+```kotlin
+class AIDLService : Service() {
+
+    private val mPersonList = CopyOnWriteArrayList<Person>()
+
+    // 实现IPersonManager里定义的方法，传递给绑定的Activity调用，实现跨进程的方法调用
+    private val mBinder = object : IPersonManager.Stub() {
+        override fun getPersonList(): MutableList<Person> {
+            return mPersonList
+        }
+
+        override fun addPerson(person: Person?) {
+            mPersonList.add(person)
+        }
+    }
+
+    override fun onCreate() {
+        super.onCreate()
+		// 初始化时加入两个数据项
+        mPersonList.add(Person("李", "小明"))
+        mPersonList.add(Person("赵", "小刚"))
+    }
+
+    // 传递给调用方
+    override fun onBind(intent: Intent): IBinder {
+        return mBinder
+    }
+}
+```
+
+> MainActivity 客户端
+
+```kotlin
+class MainActivity : AppCompatActivity() {
+
+    companion object {
+        private const val TAG = "MainActivity"
+    }
+
+    // 创建connection 用于bind service
+    private val mServiceConnection = object : ServiceConnection {
+        override fun onServiceConnected(name: ComponentName?, service: IBinder?) {
+            // 传入service，获取服务端定义的方法实现，通过接口进行调用
+            val iPersonManager = IPersonManager.Stub.asInterface(service)
+            val person = Person("张", "三")
+
+            // 调用接口定义的方法，实际执行的是AIDLService里的实现
+            iPersonManager.addPerson(person)
+            val mList = iPersonManager.personList
+            mList.forEach {
+                Log.d(TAG, "onServiceConnected: ${it.firstName} --- ${it.lastName}")
+            }
+        }
+
+        override fun onServiceDisconnected(name: ComponentName?) {
+        }
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        // 绑定Service
+        val intent = Intent(this, AIDLService::class.java)
+        bindService(intent, mServiceConnection, Context.BIND_AUTO_CREATE)
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        unbindService(mServiceConnection)
+    }
+}
+```
+
+> 结果
+
+![image-20210721152654257](https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210721152654257.png)
+
+总结：在**aidl**接口里声明可以被调用的远程方法，构建后会生成对应的**java**接口。被调用方**Service**实现`Interface.Stub()`返回实现了方法的`binder`，通过`onBind()`传递给调用方。调用方从`onServiceConnected()`里获得`binder`,并传入`Interface.Stub.asInterface(binder)`，得到被调用方对接口的实现，调用方面向接口去执行的方法，实际上就是被调用方在远程定义的方法，Service可能是在不同的进程中。当需要传输具体的数据类时，类需要实现`Parcelable`来获得序列化和反序列化的能力
+
+![image-20210721155405580](https://spg-1254258235.cos.ap-shenzhen-fsi.myqcloud.com/image-20210721155405580.png)

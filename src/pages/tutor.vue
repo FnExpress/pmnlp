@@ -2,7 +2,7 @@
   <div class="page-header p-5 bg-light container-fluid text-center">
     <h1>导师介绍</h1>
   </div>
-  <router-view inheritAttrs: false/>
+  <router-view/>
 </template>
 
 <script>

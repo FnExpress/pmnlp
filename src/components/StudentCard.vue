@@ -1,16 +1,20 @@
 <template>
-  <div class="member" data-aos="zoom-in" data-aos-delay="400">
-    <div class="pic"><img :src="getPhoto" alt="" class="img-fluid" /></div>
+  <div class="member" data-aos="zoom-in" data-aos-delay="200">
+    <div class="pic">
+      <a class="glightbox" :href="getPhoto">
+        <img :src="getPhoto" alt="" class="img-fluid"/>
+      </a>
+    </div>
     <div class="member-info">
       <h4>{{ name }}</h4>
       <span>{{ description }}</span>
       <p>{{ description }}</p>
       <div class="social">
         <a :class="{ visibility: 'hidden' }" :href="'mailto:' + email"
-          ><i class="fas fa-envelope"></i
+        ><i class="fas fa-envelope"></i
         ></a>
         <a v-show="link" :href="link" target="_blank"
-          ><i class="fas fa-home"></i
+        ><i class="fas fa-home"></i
         ></a>
         <!--        <a href=""><i class="fab fa-instagram"></i></a>-->
         <!--        <a href=""><i class="fab fa-linkedin"></i> </a>-->
@@ -19,22 +23,21 @@
   </div>
 </template>
 <script>
+const defaultPhoto = "https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211229012428.jpeg";
 export default {
   name: "StudentCard",
   props: ["name", "grade", "photo", "field", "description", "email", "link"],
-  data() {
-    return {
-      defaultPhoto:
-        "https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211208132614.png?x-oss-process=style/student",
-    };
-  },
   computed: {
     getPhoto() {
-      return this.photo == null || this.photo === ""
-        ? this.defaultPhoto
-        : this.photo;
+      return this.photo || defaultPhoto;
     },
   },
+  mounted() {
+    var lightbox = new GLightbox();
+    lightbox.on('open', (target) => {
+      console.log('lightbox opened');
+    });
+  }
 };
 </script>
 <style scoped>

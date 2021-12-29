@@ -2,18 +2,23 @@
   "name": "pmnlp",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "node preprocess.js && vite",
+    "build": "node preprocess.js && vite build",
+    "preview": "node preprocess.js && vite preview",
+    "preprocess": "node preprocess.js"
   },
   "dependencies": {
     "vue": "^3.2.25",
     "vue-router": "4"
   },
   "devDependencies": {
+    "@napi-rs/pinyin": "^1.7.0",
     "@originjs/vite-plugin-content": "^1.0.1",
+    "@types/node": "^17.0.5",
     "@vitejs/plugin-vue": "^2.0.0",
+    "js-yaml": "^4.1.0",
     "prettier": "2.5.1",
+    "rd": "^2.0.1",
     "vite": "^2.7.2",
     "vite-plugin-md": "^0.11.7",
     "vite-plugin-pages": "^0.19.7"

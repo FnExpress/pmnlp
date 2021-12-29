@@ -1,10 +1,11 @@
 <template>
   <section class="home-section">
     <div class="container">
-      <SectionTitle id="works" title="实验室工作" />
-      <h2 class="text-center p-4">项目</h2>
-      <table class="VirusTable">
-        <thead>
+      <SectionTitle id="works" title="实验室工作"/>
+
+      <div class="works-sub-section"><h2 class="works-subtitle text-center p-4">项目</h2>
+        <table class="VirusTable">
+          <thead>
           <tr>
             <th>
               <div>项目名称</div>
@@ -16,198 +17,90 @@
               <div>项目类型</div>
             </th>
           </tr>
-        </thead>
-        <tbody>
+          </thead>
+          <tbody>
           <tr v-for="(item, index) in data.projects" :key="index">
             <td>{{ data.projects[index].title }}</td>
             <td>{{ data.projects[index].time }}</td>
             <td>{{ data.projects[index].description }}</td>
           </tr>
-        </tbody>
-      </table>
-      <h2 class="text-center p-4">专利</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="post-box">
-            <div class="post-img">
-              <img
-                  src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
-                  class="img-fluid"
-                  alt=""
-              />
-            </div>
-            <span class="post-date">Tue, September 15</span>
-            <h3 class="post-title">
-              Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
-              sit
-            </h3>
-            <router-link to="/post/0" class="readmore stretched-link mt-auto"
-            ><span>Read More</span><i class="bi bi-arrow-right"></i
-            ></router-link>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="post-box">
-            <div class="post-img">
-              <img
-                  src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
-                  class="img-fluid"
-                  alt=""
-              />
-            </div>
-            <span class="post-date">Tue, September 15</span>
-            <h3 class="post-title">
-              Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
-              sit
-            </h3>
-            <router-link to="/post/0" class="readmore stretched-link mt-auto"
-            ><span>Read More</span><i class="bi bi-arrow-right"></i
-            ></router-link>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="post-box">
-            <div class="post-img">
-              <img
-                  src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
-                  class="img-fluid"
-                  alt=""
-              />
-            </div>
-            <span class="post-date">Tue, September 15</span>
-            <h3 class="post-title">
-              Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
-              sit
-            </h3>
-            <router-link to="/post/0" class="readmore stretched-link mt-auto"
-            ><span>Read More</span><i class="bi bi-arrow-right"></i
-            ></router-link>
-          </div>
-        </div>
+          </tbody>
+        </table>
       </div>
-      <h2 class="text-center p-4">产品</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="post-box">
-            <div class="post-img">
-              <img
-                  src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
-                  class="img-fluid"
-                  alt=""
-              />
+      <div class="works-sub-section"><h2 class="works-subtitle text-center p-4">专利</h2>
+        <div class="row g-4">
+          <div v-for="p in data.patent.slice(0, 3)" :key="p" class="col-lg-4">
+            <div class="post-box">
+              <div class="post-img">
+                <img
+                    :src="p.img"
+                    class="img-fluid"
+                    alt=""
+                />
+              </div>
+              <h3 class="post-title">
+                {{ p.title }}
+              </h3>
+              <span class="post-date">{{ p.author }}</span>
+              <a :href="p.link" class="readmore stretched-link mt-auto"
+              ><span>详细信息</span><i class="bi bi-arrow-right"></i
+              ></a>
             </div>
-            <span class="post-date">Tue, September 15</span>
-            <h3 class="post-title">
-              Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
-              sit
-            </h3>
-            <router-link to="/post/0" class="readmore stretched-link mt-auto"
-            ><span>Read More</span><i class="bi bi-arrow-right"></i
-            ></router-link>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="post-box">
-            <div class="post-img">
-              <img
-                  src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
-                  class="img-fluid"
-                  alt=""
-              />
-            </div>
-            <span class="post-date">Tue, September 15</span>
-            <h3 class="post-title">
-              Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
-              sit
-            </h3>
-            <router-link to="/post/0" class="readmore stretched-link mt-auto"
-            ><span>Read More</span><i class="bi bi-arrow-right"></i
-            ></router-link>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="post-box">
-            <div class="post-img">
-              <img
-                  src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
-                  class="img-fluid"
-                  alt=""
-              />
-            </div>
-            <span class="post-date">Tue, September 15</span>
-            <h3 class="post-title">
-              Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
-              sit
-            </h3>
-            <router-link to="/post/0" class="readmore stretched-link mt-auto"
-            ><span>Read More</span><i class="bi bi-arrow-right"></i
-            ></router-link>
-          </div>
-        </div>
+        <router-link to="/more/patent" class="link-to-more d-block btn btn-outline-primary mx-auto my-4 py-3 px-4">
+          查看更多
+        </router-link>
       </div>
-      <h2 class="text-center p-4">活动</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="post-box">
-            <div class="post-img">
-              <img
-                  src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
-                  class="img-fluid"
-                  alt=""
-              />
+      <div class="works-sub-section"><h2 class="works-subtitle text-center p-4">产品</h2>
+        <div class="row g-4">
+          <div v-for="p in data.product.slice(0, 3)" :key="p" class="col-lg-4">
+            <div class="post-box">
+              <div class="post-img">
+                <img
+                    :src="p.img"
+                    class="img-fluid"
+                    alt=""
+                />
+              </div>
+              <span class="post-date">{{ p.time }}</span>
+              <h3 class="post-title">
+                {{ p.title }}
+              </h3>
+              <a :href="p.link" class="readmore stretched-link mt-auto"
+              ><span>详细信息</span><i class="bi bi-arrow-right"></i
+              ></a>
             </div>
-            <span class="post-date">Tue, September 15</span>
-            <h3 class="post-title">
-              Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
-              sit
-            </h3>
-            <router-link to="/post/0" class="readmore stretched-link mt-auto"
-            ><span>Read More</span><i class="bi bi-arrow-right"></i
-            ></router-link>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="post-box">
-            <div class="post-img">
-              <img
-                  src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
-                  class="img-fluid"
-                  alt=""
-              />
-            </div>
-            <span class="post-date">Tue, September 15</span>
-            <h3 class="post-title">
-              Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
-              sit
-            </h3>
-            <router-link to="/post/0" class="readmore stretched-link mt-auto"
-            ><span>Read More</span><i class="bi bi-arrow-right"></i
-            ></router-link>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="post-box">
-            <div class="post-img">
-              <img
-                  src="https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20211224140834.png"
-                  class="img-fluid"
-                  alt=""
-              />
-            </div>
-            <span class="post-date">Tue, September 15</span>
-            <h3 class="post-title">
-              Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
-              sit
-            </h3>
-            <router-link to="/post/0" class="readmore stretched-link mt-auto"
-            ><span>Read More</span><i class="bi bi-arrow-right"></i
-            ></router-link>
-          </div>
-        </div>
+        <router-link to="/more/product" class="link-to-more d-block btn btn-outline-primary mx-auto my-4 py-3 px-4">
+          查看更多
+        </router-link>
       </div>
-
-
-
+      <div class="works-sub-section"><h2 class="works-subtitle text-center p-4">活动</h2>
+        <div class="row g-4">
+          <div v-for="p in data.activity.slice(0, 3)" :key="p" class="col-lg-4">
+            <div class="post-box">
+              <div class="post-img">
+                <img
+                    :src="p.img"
+                    alt=""
+                />
+              </div>
+              <span class="post-date">{{ p.time }}</span>
+              <h3 class="post-title">
+                {{ p.title }}
+              </h3>
+              <router-link :to="'/post/'+p.route" class="readmore stretched-link mt-auto"
+              ><span>详细信息</span><i class="bi bi-arrow-right"></i
+              ></router-link>
+            </div>
+          </div>
+        </div>
+        <router-link to="/more/activity" class="link-to-more d-block btn btn-outline-primary mx-auto my-4 py-3 px-4">
+          查看更多
+        </router-link>
+      </div>
     </div>
   </section>
 </template>
@@ -220,7 +113,6 @@ export default {
   components: {
     SectionTitle,
   },
-
   data() {
     return {
       data,
@@ -229,9 +121,17 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 h2 {
   text-align: center;
+}
+
+.link-to-more {
+  width: fit-content;
+}
+
+.works-sub-section {
+  margin-bottom: 48px;
 }
 
 .VirusTable {
@@ -241,7 +141,7 @@ h2 {
   padding-bottom: 0.5rem;
   text-align: center;
   border-spacing: 2px 6px;
-  font-size: 0.938rem;
+  font-size: 1.25rem;
   color: #4d5054;
   border-collapse: collapse;
 }
@@ -257,14 +157,20 @@ h2 {
   display: flex;
   flex-direction: column;
 }
+
 .post-box .post-img {
   overflow: hidden;
   margin: -30px -30px 15px -30px;
+  height: 200px;
   position: relative;
 }
+
 .post-box .post-img img {
   transition: 0.5s;
+  width: 100%;
+  height: auto;
 }
+
 .post-box .post-date {
   font-size: 16px;
   font-weight: 600;
@@ -272,6 +178,7 @@ h2 {
   display: block;
   margin-bottom: 10px;
 }
+
 .post-box .post-title {
   font-size: 24px;
   color: #012970;
@@ -280,6 +187,7 @@ h2 {
   position: relative;
   transition: 0.3s;
 }
+
 .post-box .readmore {
   display: flex;
   align-items: center;
@@ -287,23 +195,26 @@ h2 {
   line-height: 1;
   transition: 0.3s;
 }
+
 .post-box .readmore i {
   line-height: 0;
   margin-left: 4px;
   font-size: 18px;
 }
+
 .post-box:hover .post-title {
   color: #4154f1;
 }
+
 .post-box:hover .post-img img {
   transform: rotate(6deg) scale(1.2);
 }
 
 
-
 .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
   overflow: hidden;
 }
+
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px 30px 0 30px;
@@ -313,46 +224,55 @@ h2 {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   background: #fff;
 }
+
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
 }
+
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
 }
+
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0;
 }
+
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
   color: #e1f0fa;
   font-size: 26px;
 }
+
 .testimonials .testimonial-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
+
 .testimonials .testimonial-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
   top: 10px;
 }
+
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
 }
+
 .testimonials .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
+
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -360,6 +280,7 @@ h2 {
   opacity: 1;
   border: 1px solid #3498db;
 }
+
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #3498db;
 }
