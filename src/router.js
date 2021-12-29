@@ -13,7 +13,7 @@ const router = createRouter({
     } else {
       return {
         top: 0,
-        behavior: 'instant',
+        behavior: "instant",
       };
     }
   },

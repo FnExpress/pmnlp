@@ -1,6 +1,6 @@
 <template>
   <section class="home-section">
-    <div class="container"  >
+    <div class="container">
       <SectionTitle id="tutors" title="导师介绍" />
 
       <div class="row">

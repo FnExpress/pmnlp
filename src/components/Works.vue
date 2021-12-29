@@ -1,103 +1,107 @@
 <template>
   <section class="home-section">
     <div class="container">
-      <SectionTitle id="works" title="实验室工作"/>
+      <SectionTitle id="works" title="实验室工作" />
 
-      <div class="works-sub-section"><h2 class="works-subtitle text-center p-4">项目</h2>
+      <div class="works-sub-section">
+        <h2 class="works-subtitle text-center p-4">项目</h2>
         <table class="VirusTable">
           <thead>
-          <tr>
-            <th>
-              <div>项目名称</div>
-            </th>
-            <th>
-              <div>项目时间</div>
-            </th>
-            <th>
-              <div>项目类型</div>
-            </th>
-          </tr>
+            <tr>
+              <th>
+                <div>项目名称</div>
+              </th>
+              <th>
+                <div>项目时间</div>
+              </th>
+              <th>
+                <div>项目类型</div>
+              </th>
+            </tr>
           </thead>
           <tbody>
-          <tr v-for="(item, index) in data.projects" :key="index">
-            <td>{{ data.projects[index].title }}</td>
-            <td>{{ data.projects[index].time }}</td>
-            <td>{{ data.projects[index].description }}</td>
-          </tr>
+            <tr v-for="(item, index) in data.projects" :key="index">
+              <td>{{ data.projects[index].title }}</td>
+              <td>{{ data.projects[index].time }}</td>
+              <td>{{ data.projects[index].description }}</td>
+            </tr>
           </tbody>
         </table>
       </div>
-      <div class="works-sub-section"><h2 class="works-subtitle text-center p-4">专利</h2>
+      <div class="works-sub-section">
+        <h2 class="works-subtitle text-center p-4">专利</h2>
         <div class="row g-4">
           <div v-for="p in data.patent.slice(0, 3)" :key="p" class="col-lg-4">
             <div class="post-box">
               <div class="post-img">
-                <img
-                    :src="p.img"
-                    class="img-fluid"
-                    alt=""
-                />
+                <img :src="p.img" class="img-fluid" alt="" />
               </div>
               <h3 class="post-title">
                 {{ p.title }}
               </h3>
               <span class="post-date">{{ p.author }}</span>
               <a :href="p.link" class="readmore stretched-link mt-auto"
-              ><span>详细信息</span><i class="bi bi-arrow-right"></i
+                ><span>详细信息</span><i class="bi bi-arrow-right"></i
               ></a>
             </div>
           </div>
         </div>
-        <router-link to="/more/patent" class="link-to-more d-block btn btn-outline-primary mx-auto my-4 py-3 px-4">
+        <router-link
+          to="/more/patent"
+          class="link-to-more d-block btn btn-outline-primary mx-auto my-4 py-3 px-4"
+        >
           查看更多
         </router-link>
       </div>
-      <div class="works-sub-section"><h2 class="works-subtitle text-center p-4">产品</h2>
+      <div class="works-sub-section">
+        <h2 class="works-subtitle text-center p-4">产品</h2>
         <div class="row g-4">
           <div v-for="p in data.product.slice(0, 3)" :key="p" class="col-lg-4">
             <div class="post-box">
               <div class="post-img">
-                <img
-                    :src="p.img"
-                    class="img-fluid"
-                    alt=""
-                />
+                <img :src="p.img" class="img-fluid" alt="" />
               </div>
               <span class="post-date">{{ p.time }}</span>
               <h3 class="post-title">
                 {{ p.title }}
               </h3>
               <a :href="p.link" class="readmore stretched-link mt-auto"
-              ><span>详细信息</span><i class="bi bi-arrow-right"></i
+                ><span>详细信息</span><i class="bi bi-arrow-right"></i
               ></a>
             </div>
           </div>
         </div>
-        <router-link to="/more/product" class="link-to-more d-block btn btn-outline-primary mx-auto my-4 py-3 px-4">
+        <router-link
+          to="/more/product"
+          class="link-to-more d-block btn btn-outline-primary mx-auto my-4 py-3 px-4"
+        >
           查看更多
         </router-link>
       </div>
-      <div class="works-sub-section"><h2 class="works-subtitle text-center p-4">活动</h2>
+      <div class="works-sub-section">
+        <h2 class="works-subtitle text-center p-4">活动</h2>
         <div class="row g-4">
           <div v-for="p in data.activity.slice(0, 3)" :key="p" class="col-lg-4">
             <div class="post-box">
               <div class="post-img">
-                <img
-                    :src="p.img"
-                    alt=""
-                />
+                <img :src="p.img" alt="" />
               </div>
               <span class="post-date">{{ p.time }}</span>
               <h3 class="post-title">
                 {{ p.title }}
               </h3>
-              <router-link :to="'/post/'+p.route" class="readmore stretched-link mt-auto"
-              ><span>详细信息</span><i class="bi bi-arrow-right"></i
+              <router-link
+                :to="'/post/' + p.route"
+                class="readmore stretched-link mt-auto"
+                ><span>详细信息</span><i class="bi bi-arrow-right"></i
               ></router-link>
             </div>
           </div>
         </div>
-        <router-link to="/more/activity" class="link-to-more d-block btn btn-outline-primary mx-auto my-4 py-3 px-4">
+        <router-link
+          to="/more/activity"
+          class="link-to-more d-block btn btn-outline-primary mx-auto my-4 py-3 px-4"
+        >
           查看更多
         </router-link>
       </div>
@@ -210,8 +214,8 @@ h2 {
   transform: rotate(6deg) scale(1.2);
 }
 
-
-.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
   overflow: hidden;
 }
 
@@ -245,7 +249,8 @@ h2 {
   margin: 0;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: #e1f0fa;
   font-size: 26px;
 }

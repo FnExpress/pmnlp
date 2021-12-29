@@ -1,22 +1,21 @@
 <template>
-    <div class="page-header p-5 bg-light container-fluid text-center">
-      <h1>实验室动态</h1>
+  <div class="page-header p-5 bg-light container-fluid text-center">
+    <h1>实验室动态</h1>
+  </div>
+  <section class="p-5">
+    <div class="container">
+      <article class="post-body p-5">
+        <router-view />
+      </article>
     </div>
-    <section class="p-5">
-      <div class="container">
-        <article class="post-body p-5">
-          <router-view/>
-        </article>
-      </div>
-    </section>
+  </section>
 </template>
 
 <script>
 import BaseLayout from "../layout/BaseLayout.vue";
 
 export default {
-  components: {BaseLayout},
-
+  components: { BaseLayout },
 };
 </script>
 
@@ -30,8 +29,14 @@ export default {
   height: auto;
 }
 
-.post-body h1, h2, h3, h4, h5, h6 {
-  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+.post-body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei,
+    Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
   font-weight: 100;
   color: #000;
   line-height: 1.35;
@@ -43,6 +48,6 @@ export default {
 }
 
 .post-body p {
-  margin-bottom: 1.2em
+  margin-bottom: 1.2em;
 }
 </style>

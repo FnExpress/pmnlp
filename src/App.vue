@@ -2,9 +2,9 @@
 import BaseLayout from "./layout/BaseLayout.vue";
 export default {
   components: {
-    BaseLayout
-  }
-}
+    BaseLayout,
+  },
+};
 </script>
 
 <template>

@@ -5,10 +5,14 @@
   <section id="more">
     <div class="container p-5">
       <div class="list-group p-5">
-        <a :href="p.link" v-for="(p, i) in data" :key="p"  class="list-group-item list-group-item-action p-3">
+        <a
+          :href="p.link"
+          v-for="(p, i) in data"
+          :key="p"
+          class="list-group-item list-group-item-action p-3"
+        >
           <div class="d-flex justify-content-between">
-            <p class="text-primary">{{p.title}}</p>
-
+            <p class="text-primary">{{ p.title }}</p>
           </div>
         </a>
       </div>
@@ -21,12 +25,10 @@ import data from "../../../config.yaml";
 export default {
   data() {
     return {
-      data: data.product
+      data: data.product,
     };
   },
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

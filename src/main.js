@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
-import "./custom.css"
+import "./custom.css";
 
 window.addEventListener("load", () => {
   AOS.init({

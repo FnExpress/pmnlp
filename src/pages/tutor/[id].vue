@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-4">
         <div class="w-50 float-md-end mx-auto">
-          <img :src="data.photo" alt="" class="img-fluid"/>
+          <img :src="data.photo" alt="" class="img-fluid" />
         </div>
       </div>
       <div class="col-md-8">
@@ -28,10 +28,10 @@
             <dt class="text-info">工作背景</dt>
             <table class="table table-borderless table-sm">
               <tbody>
-              <tr v-for="p in data.job" :key="p">
-                <td>{{ p.time }}</td>
-                <td>{{ p.position }}</td>
-              </tr>
+                <tr v-for="p in data.job" :key="p">
+                  <td>{{ p.time }}</td>
+                  <td>{{ p.position }}</td>
+                </tr>
               </tbody>
             </table>
           </section>
@@ -58,22 +58,22 @@
             <dt class="text-info">联系方式</dt>
             <table class="table table-borderless">
               <tbody>
-              <tr>
-                <td>地址</td>
-                <td>{{ data.contact.address }}</td>
-              </tr>
-              <tr>
-                <td>电话</td>
-                <td>{{ data.contact.phone }}</td>
-              </tr>
-              <tr>
-                <td>邮箱</td>
-                <td>{{ data.contact.email }}</td>
-              </tr>
-              <tr>
-                <td>网页</td>
-                <td>{{ data.contact.link }}</td>
-              </tr>
+                <tr>
+                  <td>地址</td>
+                  <td>{{ data.contact.address }}</td>
+                </tr>
+                <tr>
+                  <td>电话</td>
+                  <td>{{ data.contact.phone }}</td>
+                </tr>
+                <tr>
+                  <td>邮箱</td>
+                  <td>{{ data.contact.email }}</td>
+                </tr>
+                <tr>
+                  <td>网页</td>
+                  <td>{{ data.contact.link }}</td>
+                </tr>
               </tbody>
             </table>
           </section>
@@ -87,7 +87,7 @@ import data from "../../../config.yaml";
 
 export default {
   name: "tutor-info",
-  props: ['id'],
+  props: ["id"],
   data() {
     return {
       data: data.tutors[this.id],
@@ -96,8 +96,8 @@ export default {
   watch: {
     id(toParams, previousParams) {
       this.data = data.tutors[toParams];
-    }
-  }
+    },
+  },
 };
 </script>
 <style>
