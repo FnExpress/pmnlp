@@ -3,7 +3,7 @@
     <div class="container">
       <SectionTitle id="tutors" title="导师介绍" />
 
-      <div class="row">
+      <div class="row gx-5">
         <div v-for="(n, i) in data" :key="n.name" class="col-lg-4 col-md-6">
           <router-link :to="'/tutor/' + i">
             <div class="member" data-aos="zoom-in" data-aos-delay="400">
@@ -61,6 +61,7 @@ export default {
 
 .member .pic {
   overflow: hidden;
+
 }
 
 .member .member-info {

@@ -1,5 +1,5 @@
 <template>
-  <div class="member" data-aos="zoom-in" data-aos-delay="200">
+  <div class="member m-5" data-aos="zoom-in" data-aos-delay="200">
     <div class="pic">
       <a class="glightbox" :href="getPhoto">
         <img :src="getPhoto" alt="" class="img-fluid" />

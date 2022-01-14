@@ -308,7 +308,7 @@ students:
       email: null
     - name: 刘芳
       grade: 2018级博士
-      photo: null
+      photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/20220112174918.png
       field: null
       description: null
       email: null
@@ -371,9 +371,9 @@ students:
     - name: 许敏章
       grade: 2021级硕士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261458831.jpeg
-      field: ''
-      description: ''
-      email: ''
+      field: 方向文本生成 兴趣诗词歌赋古典rap
+      description: 山野闲人× 打工人✓
+      email: minzhangxu@whu.edu.cn
     - name: 彭淼
       grade: 2021级硕士
       photo: https://spg-picgo.oss-cn-shenzhen.aliyuncs.com/202112261459725.jpeg
