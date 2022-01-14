@@ -1,7 +1,56 @@
-# Vue 3 + Vite
+# 语言与信息研究中心
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+实验室主页 建设中 👴🔨
 
-## Recommended IDE Setup
+## 使用
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+```bash
+# 安装依赖
+$ yarn install
+
+# 启动服务
+$ yarn dev  # visit http://localhost:3000
+
+# 构建
+$ yarn build
+```
+
+## 目录
+```
+pmnlp
+├── README.md
+├── config.yaml       # 配置项
+├── index.html        # 入口
+├── package.json
+├── preprocess.js
+├── public
+│   ├── favicon.ico
+├── src
+│   ├── App.vue
+│   ├── assets
+│   ├── components
+│   ├── custom.css
+│   ├── layout
+│   ├── main.js
+│   ├── pages
+│   ├── router.js
+│   └── typo.css
+├── vite.config.js    # Vite配置
+└── yarn.lock
+```
+
+## 配置说明
+
+## 修改说明
+
+基于[Vite](https://vitejs.cn/)构建， 配置文件： **vite.config.js**
+
+[Vue路由](https://next.router.vuejs.org/zh/)，配置文件：**src/router.js**
+
+UI用的[Bootstrap5](https://v5.bootcss.com/)
+
+入口文件 **src/main.js**
+
+部分组件在index.html用CDN引入的
+
+按图索骥吧
